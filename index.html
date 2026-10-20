@@ -1,0 +1,2060 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#28654f"><title>日日粤 · 每天一点，慢慢讲</title><style>:root{--green:#28654f;--ink:#243e34;--muted:#7a857d;--paper:#f6f7f2;--line:#e2e7df}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:'Noto Sans SC',-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif;font-size:14px}button,a{-webkit-tap-highlight-color:transparent}button{font:inherit;cursor:pointer}button:focus-visible,a:focus-visible{outline:3px solid #d29652;outline-offset:4px}header{height:88px;background:#fff;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 max(5%,calc((100vw - 1200px)/2));gap:24px}.brand{text-decoration:none;color:var(--ink);font-size:25px;font-weight:700;white-space:nowrap}.brand>span{color:var(--green)}.brand small{display:block;font-size:8px;letter-spacing:2px;font-weight:500;margin-top:2px}nav{display:flex;height:100%;gap:34px}nav button{background:none;border:0;color:var(--muted);position:relative;padding:0 3px}nav button.active{color:var(--green);font-weight:600}nav button.active:after{content:'';height:3px;background:var(--green);position:absolute;bottom:0;left:0;right:0}.header-note{color:var(--muted);font-size:12px}main{max-width:1200px;margin:auto;padding:45px 28px 0}.intro{display:flex;justify-content:space-between;align-items:center;margin-bottom:34px}.eyebrow{font-size:10px;letter-spacing:2px;color:var(--green);font-weight:600}h1{font-size:34px;letter-spacing:1px;margin:14px 0}h1 span{color:#ca9761}.subtitle{color:var(--muted);margin-bottom:0}.date-card{display:grid;gap:9px;text-align:right;color:var(--muted);font-size:12px}.date-card strong{color:var(--green);font-size:13px;font-weight:500}.layout{display:grid;grid-template-columns:minmax(0,1fr) 290px;gap:24px}.hero{background:#28654f;color:#fff;border-radius:18px;padding:30px 34px;position:relative;overflow:hidden;min-height:216px;display:flex;align-items:center;justify-content:space-between}.hero:after{content:'';width:200px;height:200px;border:1px solid #ffffff12;border-radius:50%;position:absolute;right:-70px;top:-70px}.hero .eyebrow{color:#c9ddce}.hero h2{font-size:27px;margin:15px 0 12px}.hero p{color:#d1e1d5;font-size:12px}.hero-art{font-size:68px;transform:rotate(-10deg);padding:10px 16px;border:1px solid #ffffff35;border-radius:28px;color:#d6e7bf;line-height:1.2}.hero-art small{display:block;font-size:11px;text-align:center;letter-spacing:3px}.chips{display:flex;gap:8px;margin-top:22px}.chips span{background:#ffffff15;padding:6px 10px;border-radius:6px;font-size:11px}.panel{background:white;border:1px solid var(--line);border-radius:16px;padding:23px}.section-head{display:flex;align-items:center;justify-content:space-between;margin:30px 0 16px}.section-head h2{font-size:18px;margin:0}.section-head small{color:var(--muted);font-size:12px}.tabs{display:flex;gap:8px;margin:22px 0 16px}.tabs button,.soft{border:1px solid var(--line);background:#fff;border-radius:8px;padding:10px 16px;color:var(--muted)}.tabs button.active{background:#e6eee4;border-color:#d8e4d5;color:var(--green)}.words{display:grid;grid-template-columns:1fr 1fr;gap:12px}.word{position:relative;background:white;border:1px solid var(--line);border-radius:12px;padding:20px;transition:border-color .15s}.word.known{border-color:#96b59d;background:#f0f5ec}.number{font-size:10px;color:#a5afa5;letter-spacing:1px}.word h3{font-size:24px;margin:10px 0 5px;font-weight:600}.jyut{color:var(--green);font-size:13px;letter-spacing:.5px}.meaning{color:var(--muted);font-size:12px;margin:9px 0 0}.mark{position:absolute;right:15px;top:16px;border:1px solid var(--line);border-radius:50%;width:29px;height:29px;background:white;color:#a2afa3}.known .mark{background:var(--green);color:white;border-color:var(--green)}.sentence{margin-bottom:12px}.sentence h3{font-size:20px;padding-right:25px}.side{display:flex;flex-direction:column;gap:18px}.panel h3{margin:0 0 20px;font-size:15px}.stat-row{display:flex;justify-content:space-between;align-items:end}.stat-row strong{font-size:36px;font-weight:600}.stat-row strong small{font-size:13px;font-weight:400;margin-left:4px}.pill{font-size:11px;background:#f6efe1;color:#ae7a35;border-radius:20px;padding:5px 8px}.week{display:flex;justify-content:space-between;margin:24px 0 10px}.day{text-align:center;font-size:10px;color:var(--muted)}.day i{display:flex;font-style:normal;align-items:center;justify-content:center;width:26px;height:26px;background:#f2f4ed;border-radius:50%;margin-top:9px;color:#9fa999}.day i.done{background:var(--green);color:white}.tiny{font-size:11px;color:var(--muted);line-height:1.8}.divider{height:1px;background:var(--line);margin:20px 0}.plan{display:flex;gap:12px;margin:19px 0;align-items:center}.plan b{font-size:11px;width:27px;height:27px;display:grid;place-items:center;background:#f1f4eb;border-radius:8px;font-weight:500}.plan span{flex:1;font-size:12px}.plan small{font-size:11px;color:var(--muted)}.tip{background:#edf0e3;border:0;line-height:1.9}.tip h3{margin-bottom:10px}.tip p{font-size:12px;color:#6c7b64;margin:0}.timer{display:flex;justify-content:space-between;align-items:center;margin:17px 0}.timer strong{font-size:29px;font-variant-numeric:tabular-nums}.primary{background:var(--green);border:0;color:white;border-radius:9px;padding:13px 18px;font-weight:500}.primary:disabled{background:#c2cdbf;cursor:default}.full{width:100%}.progressbar{height:5px;border-radius:10px;background:#eaf0e5;overflow:hidden;margin:15px 0}.progressbar span{display:block;height:100%;background:#789b69}.finish{margin-top:20px;padding:22px;text-align:center}.finish p{font-size:12px;color:var(--muted)}footer{border-top:1px solid var(--line);margin-top:40px;padding:23px 0;display:flex;justify-content:space-between;gap:15px;font-size:10px;color:#8d978c}.empty{text-align:center;padding:65px 20px}.empty h2{font-size:23px}.empty p{color:var(--muted);line-height:2}.lesson-list{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}.lesson-list button{text-align:left;color:var(--ink)}.lesson-list h3{margin:10px 0}.summary{display:flex;gap:30px;margin:25px 0}.summary strong{font-size:30px;display:block}.summary span{font-size:12px;color:var(--muted)}#toast{position:fixed;bottom:28px;left:50%;transform:translateX(-50%);background:var(--ink);color:white;padding:13px 22px;border-radius:12px;box-shadow:0 6px 24px #0002;display:none;z-index:10}.review-banner{background:#edf0e3;padding:14px 18px;border-radius:10px;margin-bottom:20px;color:var(--green)}@media(max-width:850px){.layout{grid-template-columns:1fr 255px;gap:16px}.header-note{display:none}nav{gap:22px}.hero{padding:25px}.hero-art{display:none}main{padding:30px 20px 0}}@media(max-width:650px){header{height:76px;padding:0 18px;gap:12px}.brand{font-size:22px}.brand small{font-size:6px}nav{gap:16px}nav button{font-size:12px}main{padding:25px 17px 0}.intro{margin-bottom:24px}h1{font-size:26px}.subtitle{font-size:12px;line-height:1.8}.date-card{display:none}.eyebrow{font-size:8px;letter-spacing:1.6px}.layout{display:flex;flex-direction:column}.hero{min-height:195px;padding:23px}.hero h2{font-size:24px}.side{display:grid;grid-template-columns:1fr;gap:14px}.side .checkin{order:-1}.words{gap:10px}.word{padding:17px 14px}.word h3{font-size:23px}.word .meaning{line-height:1.6}.mark{right:10px;top:12px}.section-head h2{font-size:16px}.section-head small{font-size:10px}.sentence h3{font-size:19px}.lesson-list{grid-template-columns:1fr}footer{flex-direction:column;font-size:10px}.summary{gap:24px}.hero-art{display:block;font-size:45px;padding:10px}.hero-art small{font-size:8px}.chips{gap:5px}.chips span{padding:5px 7px;font-size:10px}}
+.audio-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:15px}.audio-actions[hidden],[hidden]{display:none!important}.speak{background:#eef3e9;border:1px solid #dce6d6;border-radius:7px;color:var(--green);font-size:12px;padding:7px 10px;min-height:36px}.speak:hover{background:#dfead9}.speech-panel h3{line-height:1.8;margin-bottom:10px}.speech-panel h3 .pill{font-weight:400;font-size:10px}.speech-panel details{border-top:1px solid var(--line);margin-top:14px;padding-top:14px}.speech-panel summary{font-size:12px;color:var(--green);cursor:pointer;line-height:1.8}.speech-panel #stop-speech{margin-bottom:10px}
+.level-switch{display:flex;justify-content:space-between;align-items:center;gap:18px;margin-bottom:24px;padding:18px 22px;border:1px solid #d9e4d2;background:#edf2e7;border-radius:14px}.level-switch strong{font-size:14px}.level-switch p{font-size:12px;color:#6d7d65;margin:6px 0 0}.level-buttons{display:flex;gap:5px;background:#fff8;padding:4px;border-radius:10px;flex-shrink:0}.level-buttons button{border:0;border-radius:7px;background:transparent;color:#718169;padding:9px 13px}.level-buttons .active{background:var(--green);color:white}.challenge{margin-top:18px;background:#f0f3e8}.challenge h3{margin:10px 0}.challenge p{line-height:1.9}.challenge label{display:flex;align-items:center;gap:9px;line-height:1.8;font-size:13px;cursor:pointer}.challenge input{accent-color:var(--green);width:18px;height:18px;flex-shrink:0}.recall .word h3,.recall .word .jyut{visibility:hidden}@media(max-width:650px){.level-switch{align-items:flex-start;flex-direction:column;padding:17px}.level-buttons{width:100%}.level-buttons button{flex:1}.challenge .soft{font-size:12px;width:100%}}
+.practice-tools{display:flex;gap:9px;flex-wrap:wrap}.practice-tools .soft{font-size:12px}.listening .word h3,.listening .word .jyut,.listening .word .meaning{visibility:hidden}.course-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}.course-day{border:1px solid var(--line);border-radius:12px;background:#fff;padding:17px;text-align:left;color:var(--ink);display:grid;gap:10px}.course-day span{font-size:10px;letter-spacing:1px;color:var(--muted)}.course-day strong{font-size:14px;font-weight:500}.course-day small{font-size:11px;color:var(--muted)}.course-day.current{border-color:var(--green);background:#eaf0e4}.course-day.done{background:#f0f3eb}.course-day.done span{color:var(--green)}.module-group{margin-bottom:30px}.module-number{font-size:14px;color:#9aa98d}.catalog-intro h2{font-size:25px}.journey-metrics{display:flex;gap:45px;margin-top:25px}.journey-metrics b{font-size:30px;font-weight:500}.journey-metrics small{display:block;font-weight:400;font-size:11px;color:var(--muted);margin-top:6px}.lesson-context{padding:18px 4px;border-bottom:1px solid var(--line)}.lesson-context>span{font-size:11px;border-radius:12px;background:#e7eddf;padding:4px 9px;color:var(--green)}.lesson-context p{font-size:12px;color:var(--muted);line-height:1.9;margin:12px 0 7px}.text-button{border:0;background:none;color:var(--green);font:inherit;font-size:12px;padding:4px 0}.backup-panel{margin-top:20px}.file-label{cursor:pointer;display:inline-flex;align-items:center}.file-label input{position:absolute;width:1px;height:1px;opacity:0}.file-label:focus-within{outline:3px solid #d29652;outline-offset:3px}.mark:disabled{opacity:.35;cursor:default}nav{gap:24px}.hero h2{max-width:520px;font-size:25px}.hero-art{font-size:53px;padding:10px}.level-buttons button{font-size:12px}@media(max-width:850px){.hero-art{display:none}.hero h2{font-size:23px}.course-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:650px){header{height:auto;min-height:98px;flex-wrap:wrap;padding:13px 17px 0;gap:10px}.brand{font-size:21px}.brand small{display:inline;margin-left:10px;font-size:7px}nav{width:100%;height:38px;gap:0;justify-content:space-between}nav button{font-size:12px;padding:0 4px}.hero h2{font-size:22px}.course-grid{gap:9px}.course-day{padding:14px 12px}.course-day strong{font-size:12px}.course-day small{font-size:10px}.module-group .section-head{align-items:flex-start;gap:12px}.module-group .section-head small{text-align:right;max-width:105px;line-height:1.8}.catalog-intro h2{font-size:22px}.journey-metrics{gap:35px}.tabs{gap:5px;flex-wrap:wrap}.tabs button{padding:10px 12px;font-size:12px}.practice-tools{flex-direction:column}.challenge p{font-size:13px}.hero{min-height:190px}.hero .eyebrow{font-size:10px}.level-buttons{flex-wrap:wrap}.level-buttons button{padding:9px 10px}.section-head h2 .tiny{display:none}.summary strong{font-size:25px}}
+</style></head><body><header><a class="brand" href="#">日日<span>粤</span><small>DAILY CANTONESE</small></a><nav aria-label="主导航"><button data-view="learn" class="active">今日学习</button><button data-view="catalog">90 天路线</button><button data-view="review">温故知新</button><button data-view="progress">我的足迹</button></nav><div class="header-note">每日 20 分钟，讲多啲。</div></header><main><section class="intro"><div><p class="eyebrow">A LITTLE EVERY DAY · 每日粤语</p><h1>慢慢学，自然会讲<span>。</span></h1><p class="subtitle">每天 20 分钟，用 90 天，把学过的粤语变成生活里的话。</p></div><div class="date-card"><span id="date"></span><strong>今日，宜学粤语 ☀</strong></div></section><div id="app"></div><footer><span>日日粤 · 把小小的坚持，变成大大的进步。</span><span>繁体粤语 · 香港语言学学会粤拼</span></footer></main><div id="toast" role="status" aria-live="polite"></div><script>
+const lessons=[
+{title:'从一句「你好」开始',topic:'见面与问候',words:[['你好','nei5 hou2','你好'],['早晨','zou2 san4','早上好'],['唔該','m4 goi1','谢谢／劳驾'],['多謝','do1 ze6','谢谢（收礼或受帮助）'],['再見','zoi3 gin3','再见'],['係','hai6','是'],['唔係','m4 hai6','不是'],['我','ngo5','我'],['你','nei5','你'],['好','hou2','好']],sentences:[['你好，我叫阿明。','nei5 hou2, ngo5 giu3 aa3 ming4.','你好，我叫阿明。'],['你叫咩名呀？','nei5 giu3 me1 meng2 aa3?','你叫什么名字呀？'],['好高興識到你。','hou2 gou1 hing3 sik1 dou2 nei5.','很高兴认识你。'],['你最近點呀？','nei5 zeoi3 gan6 dim2 aa3?','你最近怎么样？'],['我幾好，多謝你。','ngo5 gei2 hou2, do1 ze6 nei5.','我挺好的，谢谢你。']]},
+{title:'一起去饮茶',topic:'餐厅与点餐',words:[['飲茶','jam2 caa4','喝茶／吃早茶'],['食飯','sik6 faan6','吃饭'],['水','seoi2','水'],['茶','caa4','茶'],['咖啡','gaa3 fe1','咖啡'],['奶茶','naai5 caa4','奶茶'],['包','baau1','包子／面包'],['飯','faan6','米饭'],['好食','hou2 sik6','好吃'],['埋單','maai4 daan1','结账']],sentences:[['唔該，兩位。','m4 goi1, loeng5 wai2.','你好，两位。'],['我想飲杯茶。','ngo5 soeng2 jam2 bui1 caa4.','我想喝杯茶。'],['有咩好食呀？','jau5 me1 hou2 sik6 aa3?','有什么好吃的？'],['唔該，畀杯水我。','m4 goi1, bei2 bui1 seoi2 ngo5.','麻烦给我一杯水。'],['唔該，埋單。','m4 goi1, maai4 daan1.','麻烦结账。']]},
+{title:'街角小店逛一逛',topic:'购物与价格',words:[['幾多','gei2 do1','多少'],['錢','cin2','钱'],['蚊','man1','元（口语）'],['買','maai5','买'],['賣','maai6','卖'],['呢個','ni1 go3','这个'],['嗰個','go2 go3','那个'],['平','peng4','便宜'],['貴','gwai3','贵'],['鍾意','zung1 ji3','喜欢']],sentences:[['呢個幾多錢呀？','ni1 go3 gei2 do1 cin2 aa3?','这个多少钱？'],['可唔可以平啲呀？','ho2 m4 ho2 ji5 peng4 di1 aa3?','可以便宜一点吗？'],['我想買呢個。','ngo5 soeng2 maai5 ni1 go3.','我想买这个。'],['有冇第二隻色？','jau5 mou5 dai6 ji6 zek3 sik1?','有没有另一种颜色？'],['我再睇吓先。','ngo5 zoi3 tai2 haa5 sin1.','我再看看。']]},
+{title:'搭车去睇风景',topic:'出行与问路',words:[['邊度','bin1 dou6','哪里'],['呢度','ni1 dou6','这里'],['嗰度','go2 dou6','那里'],['巴士','baa1 si2','公交车'],['地鐵','dei6 tit3','地铁'],['的士','dik1 si2','出租车'],['左','zo2','左'],['右','jau6','右'],['直行','zik6 haang4','直走'],['落車','lok6 ce1','下车']],sentences:[['地鐵站喺邊度？','dei6 tit3 zaam6 hai2 bin1 dou6?','地铁站在哪里？'],['唔該，去中環。','m4 goi1, heoi3 zung1 waan4.','麻烦去中环。'],['喺呢度落車。','hai2 ni1 dou6 lok6 ce1.','在这里下车。'],['直行再轉左。','zik6 haang4 zoi3 zyun3 zo2.','直走再向左转。'],['行過去要幾耐？','haang4 gwo3 heoi3 jiu3 gei2 noi6?','走过去要多久？']]},
+{title:'聊聊我的一天',topic:'时间与日常',words:[['今日','gam1 jat6','今天'],['聽日','ting1 jat6','明天'],['尋日','cam4 jat6','昨天'],['而家','ji4 gaa1','现在'],['返工','faan1 gung1','上班'],['放工','fong3 gung1','下班'],['返屋企','faan1 uk1 kei2','回家'],['瞓覺','fan3 gaau3','睡觉'],['幾點','gei2 dim2','几点'],['得閒','dak1 haan4','有空']],sentences:[['而家幾點呀？','ji4 gaa1 gei2 dim2 aa3?','现在几点了？'],['我聽日要返工。','ngo5 ting1 jat6 jiu3 faan1 gung1.','我明天要上班。'],['你幾點放工？','nei5 gei2 dim2 fong3 gung1?','你几点下班？'],['你今日得唔得閒？','nei5 gam1 jat6 dak1 m4 dak1 haan4?','你今天有没有空？'],['我返屋企先。','ngo5 faan1 uk1 kei2 sin1.','我先回家了。']]},
+{title:'把心情说出来',topic:'感受与天气',words:[['開心','hoi1 sam1','开心'],['攰','gui6','累'],['肚餓','tou5 ngo6','饿'],['口渴','hau2 hot3','口渴'],['熱','jit6','热'],['凍','dung3','冷'],['落雨','lok6 jyu5','下雨'],['天氣','tin1 hei3','天气'],['舒服','syu1 fuk6','舒服'],['靚','leng3','好看']],sentences:[['今日好熱呀。','gam1 jat6 hou2 jit6 aa3.','今天好热呀。'],['我有啲攰。','ngo5 jau5 di1 gui6.','我有点累。'],['你肚唔肚餓呀？','nei5 tou5 m4 tou5 ngo6 aa3?','你饿不饿呀？'],['出面落緊雨。','ceot1 min6 lok6 gan2 jyu5.','外面正在下雨。'],['今日好開心。','gam1 jat6 hou2 hoi1 sam1.','今天很开心。']]},
+{title:'下次再一齐玩',topic:'邀请与交流',words:[['一齊','jat1 cai4','一起'],['朋友','pang4 jau5','朋友'],['睇戲','tai2 hei3','看电影'],['行街','haang4 gaai1','逛街'],['傾偈','king1 gai2','聊天'],['識','sik1','懂／认识'],['明白','ming4 baak6','明白'],['慢啲','maan6 di1','慢一点'],['學','hok6','学'],['廣東話','gwong2 dung1 waa2','粤语']],sentences:[['一齊去食飯，好唔好？','jat1 cai4 heoi3 sik6 faan6, hou2 m4 hou2?','一起去吃饭，好不好？'],['我學緊廣東話。','ngo5 hok6 gan2 gwong2 dung1 waa2.','我正在学粤语。'],['唔該，講慢啲。','m4 goi1, gong2 maan6 di1.','麻烦说慢一点。'],['我唔係好明白。','ngo5 m4 hai6 hou2 ming4 baak6.','我不太明白。'],['下次再傾。','haa6 ci3 zoi3 king1.','下次再聊。']]}
+];
+
+const advancedLessons=[
+  {
+    "title": "把近况聊得更自然",
+    "topic": "近况与语气",
+    "challenge": "用「最近」「有啲」「不過」说三句自己的近况。",
+    "tip": "「有啲」表示有一点；「不過」用来补充转折。",
+    "words": [
+      [
+        "最近",
+        "zeoi3 gan6",
+        "最近"
+      ],
+      [
+        "有啲",
+        "jau5 di1",
+        "有一点"
+      ],
+      [
+        "不過",
+        "bat1 gwo3",
+        "不过"
+      ],
+      [
+        "其實",
+        "kei4 sat6",
+        "其实"
+      ],
+      [
+        "好似",
+        "hou2 ci5",
+        "好像"
+      ],
+      [
+        "仲",
+        "zung6",
+        "还／仍然"
+      ],
+      [
+        "咁",
+        "gam3",
+        "这么／那么"
+      ],
+      [
+        "忙",
+        "mong4",
+        "忙"
+      ],
+      [
+        "習慣",
+        "zaap6 gwaan3",
+        "习惯"
+      ],
+      [
+        "慢慢",
+        "maan6 maan6",
+        "慢慢地"
+      ]
+    ],
+    "sentences": [
+      [
+        "最近返工有啲忙，不過都幾開心。",
+        "zeoi3 gan6 faan1 gung1 jau5 di1 mong4, bat1 gwo3 dou1 gei2 hoi1 sam1.",
+        "最近上班有点忙，不过还是挺开心。"
+      ],
+      [
+        "其實我仲未習慣咁早起身。",
+        "kei4 sat6 ngo5 zung6 mei6 zaap6 gwaan3 gam3 zou2 hei2 san1.",
+        "其实我还没习惯这么早起床。"
+      ],
+      [
+        "你好似攰咗好多喎。",
+        "nei5 hou2 ci5 gui6 zo2 hou2 do1 wo3.",
+        "你好像累了很多呀。"
+      ],
+      [
+        "我想慢慢學，唔使咁急。",
+        "ngo5 soeng2 maan6 maan6 hok6, m4 sai2 gam3 gap1.",
+        "我想慢慢学，不用这么急。"
+      ],
+      [
+        "你最近有冇學緊啲咩呀？",
+        "nei5 zeoi3 gan6 jau5 mou5 hok6 gan2 di1 me1 aa3?",
+        "你最近有没有在学什么呀？"
+      ]
+    ]
+  },
+  {
+    "title": "点餐时说清自己的偏好",
+    "topic": "点餐与要求",
+    "challenge": "模拟点餐：提出两项口味要求，再问一道菜是否有货。",
+    "tip": "「唔好」用于请求不要；「可唔可以」用于礼貌询问。",
+    "words": [
+      [
+        "走冰",
+        "zau2 bing1",
+        "不加冰"
+      ],
+      [
+        "少甜",
+        "siu2 tim4",
+        "少糖／少甜"
+      ],
+      [
+        "外賣",
+        "ngoi6 maai6",
+        "外带／外卖"
+      ],
+      [
+        "堂食",
+        "tong4 sik6",
+        "堂食"
+      ],
+      [
+        "推介",
+        "teoi1 gaai3",
+        "推荐"
+      ],
+      [
+        "辣",
+        "laat6",
+        "辣"
+      ],
+      [
+        "清淡",
+        "cing1 daam6",
+        "清淡"
+      ],
+      [
+        "分開",
+        "fan1 hoi1",
+        "分开"
+      ],
+      [
+        "加",
+        "gaa1",
+        "加"
+      ],
+      [
+        "夠",
+        "gau3",
+        "够"
+      ]
+    ],
+    "sentences": [
+      [
+        "唔該，一杯奶茶，走冰少甜。",
+        "m4 goi1, jat1 bui1 naai5 caa4, zau2 bing1 siu2 tim4.",
+        "麻烦一杯奶茶，不加冰、少甜。"
+      ],
+      [
+        "我唔係好食得辣，有咩推介？",
+        "ngo5 m4 hai6 hou2 sik6 dak1 laat6, jau5 me1 teoi1 gaai3?",
+        "我不太能吃辣，有什么推荐？"
+      ],
+      [
+        "呢個可唔可以唔加葱？",
+        "ni1 go3 ho2 m4 ho2 ji5 m4 gaa1 cung1?",
+        "这个可以不加葱吗？"
+      ],
+      [
+        "唔該，個汁分開上。",
+        "m4 goi1, go3 zap1 fan1 hoi1 soeng5.",
+        "麻烦酱汁另外上。"
+      ],
+      [
+        "我哋想叫外賣，唔喺度食。",
+        "ngo5 dei6 soeng2 giu3 ngoi6 maai6, m4 hai2 dou6 sik6.",
+        "我们想打包，不在这里吃。"
+      ]
+    ]
+  },
+  {
+    "title": "约时间，也能改计划",
+    "topic": "邀约与商量",
+    "challenge": "邀请朋友周末见面；假设对方没空，再提出一个时间。",
+    "tip": "「不如」提出建议；「或者」给出另一种选择。",
+    "words": [
+      [
+        "不如",
+        "bat1 jyu4",
+        "不如"
+      ],
+      [
+        "或者",
+        "waak6 ze2",
+        "或者"
+      ],
+      [
+        "改",
+        "goi2",
+        "改"
+      ],
+      [
+        "約",
+        "joek3",
+        "约"
+      ],
+      [
+        "遲啲",
+        "ci4 di1",
+        "晚一点／稍后"
+      ],
+      [
+        "早啲",
+        "zou2 di1",
+        "早一点"
+      ],
+      [
+        "就",
+        "zau6",
+        "就"
+      ],
+      [
+        "方便",
+        "fong1 bin6",
+        "方便"
+      ],
+      [
+        "決定",
+        "kyut3 ding6",
+        "决定"
+      ],
+      [
+        "週末",
+        "zau1 mut6",
+        "周末"
+      ]
+    ],
+    "sentences": [
+      [
+        "不如我哋週末一齊去行街。",
+        "bat1 jyu4 ngo5 dei6 zau1 mut6 jat1 cai4 heoi3 haang4 gaai1.",
+        "不如我们周末一起去逛街。"
+      ],
+      [
+        "星期六唔得，星期日你方唔方便？",
+        "sing1 kei4 luk6 m4 dak1, sing1 kei4 jat6 nei5 fong1 m4 fong1 bin6?",
+        "星期六不行，星期日你方便吗？"
+      ],
+      [
+        "我可能會遲啲到，你哋食住先。",
+        "ngo5 ho2 nang4 wui5 ci4 di1 dou3, nei5 dei6 sik6 zyu6 sin1.",
+        "我可能会晚一点到，你们先吃着。"
+      ],
+      [
+        "或者改做下個星期，好唔好？",
+        "waak6 ze2 goi2 zou6 haa6 go3 sing1 kei4, hou2 m4 hou2?",
+        "或者改到下个星期，好不好？"
+      ],
+      [
+        "咁就約定三點喺門口等。",
+        "gam2 zau6 joek3 ding6 saam1 dim2 hai2 mun4 hau2 dang2.",
+        "那就约好三点在门口等。"
+      ]
+    ]
+  },
+  {
+    "title": "把一件小事讲完整",
+    "topic": "经历与叙述",
+    "challenge": "用「本来…点知…所以…」讲一件最近发生的小事。",
+    "tip": "「咗」常表示完成或变化；「過」表示曾有某种经历。",
+    "words": [
+      [
+        "本來",
+        "bun2 loi4",
+        "本来"
+      ],
+      [
+        "點知",
+        "dim2 zi1",
+        "谁知道／没想到"
+      ],
+      [
+        "所以",
+        "so2 ji5",
+        "所以"
+      ],
+      [
+        "已經",
+        "ji5 ging1",
+        "已经"
+      ],
+      [
+        "啱啱",
+        "aam1 aam1",
+        "刚刚"
+      ],
+      [
+        "未",
+        "mei6",
+        "还没"
+      ],
+      [
+        "試過",
+        "si3 gwo3",
+        "尝试过"
+      ],
+      [
+        "搵",
+        "wan2",
+        "找"
+      ],
+      [
+        "唔記得",
+        "m4 gei3 dak1",
+        "忘记"
+      ],
+      [
+        "結果",
+        "git3 gwo2",
+        "结果"
+      ]
+    ],
+    "sentences": [
+      [
+        "我本來想搭巴士，點知等咗好耐。",
+        "ngo5 bun2 loi4 soeng2 daap3 baa1 si2, dim2 zi1 dang2 zo2 hou2 noi6.",
+        "我本来想坐公交，没想到等了很久。"
+      ],
+      [
+        "我啱啱食完飯，而家唔肚餓。",
+        "ngo5 aam1 aam1 sik6 jyun4 faan6, ji4 gaa1 m4 tou5 ngo6.",
+        "我刚吃完饭，现在不饿。"
+      ],
+      [
+        "你有冇試過自己一個去旅行？",
+        "nei5 jau5 mou5 si3 gwo3 zi6 gei2 jat1 go3 heoi3 leoi5 hang4?",
+        "你有没有试过一个人去旅行？"
+      ],
+      [
+        "我唔記得帶遮，所以淋濕咗。",
+        "ngo5 m4 gei3 dak1 daai3 ze1, so2 ji5 lam4 sap1 zo2.",
+        "我忘了带伞，所以下雨淋湿了。"
+      ],
+      [
+        "我已經搵到喇，唔使再搵。",
+        "ngo5 ji5 ging1 wan2 dou2 laa3, m4 sai2 zoi3 wan2.",
+        "我已经找到了，不用再找。"
+      ]
+    ]
+  },
+  {
+    "title": "遇到问题，讲清楚需求",
+    "topic": "求助与澄清",
+    "challenge": "模拟问路没听懂：请求重复，再用自己的话确认一次。",
+    "tip": "「即係」用于解释或确认；「唔太」表示不太。",
+    "words": [
+      [
+        "即係",
+        "zik1 hai6",
+        "就是／也就是说"
+      ],
+      [
+        "麻煩",
+        "maa4 faan4",
+        "麻烦"
+      ],
+      [
+        "幫手",
+        "bong1 sau2",
+        "帮忙"
+      ],
+      [
+        "清楚",
+        "cing1 co2",
+        "清楚"
+      ],
+      [
+        "重複",
+        "cung4 fuk1",
+        "重复"
+      ],
+      [
+        "意思",
+        "ji3 si1",
+        "意思"
+      ],
+      [
+        "問題",
+        "man6 tai4",
+        "问题"
+      ],
+      [
+        "應該",
+        "jing1 goi1",
+        "应该"
+      ],
+      [
+        "點樣",
+        "dim2 joeng2",
+        "怎样"
+      ],
+      [
+        "唔太",
+        "m4 taai3",
+        "不太"
+      ]
+    ],
+    "sentences": [
+      [
+        "唔好意思，我聽唔太清楚，可唔可以再講一次？",
+        "m4 hou2 ji3 si1, ngo5 teng1 m4 taai3 cing1 co2, ho2 m4 ho2 ji5 zoi3 gong2 jat1 ci3?",
+        "不好意思，我听不太清楚，可以再说一次吗？"
+      ],
+      [
+        "你嘅意思係咪喺下一個站落車？",
+        "nei5 ge3 ji3 si1 hai6 mai6 hai2 haa6 jat1 go3 zaam6 lok6 ce1?",
+        "你的意思是不是在下一站下车？"
+      ],
+      [
+        "麻煩你幫我睇吓呢個地址。",
+        "maa4 faan4 nei5 bong1 ngo5 tai2 haa5 ni1 go3 dei6 zi2.",
+        "麻烦你帮我看一下这个地址。"
+      ],
+      [
+        "我應該點樣行先啱？",
+        "ngo5 jing1 goi1 dim2 joeng2 haang4 sin1 aam1?",
+        "我应该怎么走才对？"
+      ],
+      [
+        "即係轉右之後再直行，係咪呀？",
+        "zik1 hai6 zyun3 jau6 zi1 hau6 zoi3 zik6 haang4, hai6 mai6 aa3?",
+        "就是右转之后再直走，对吗？"
+      ]
+    ]
+  },
+  {
+    "title": "表达意见，不只说好或不好",
+    "topic": "观点与比较",
+    "challenge": "比较两家餐厅或两部电影，说明自己的偏好和原因。",
+    "tip": "「雖然…但係…」表示让步；「比較」用于比较事物。",
+    "words": [
+      [
+        "覺得",
+        "gok3 dak1",
+        "觉得"
+      ],
+      [
+        "比較",
+        "bei2 gaau3",
+        "比较"
+      ],
+      [
+        "雖然",
+        "seoi1 jin4",
+        "虽然"
+      ],
+      [
+        "但係",
+        "daan6 hai6",
+        "但是"
+      ],
+      [
+        "如果",
+        "jyu4 gwo2",
+        "如果"
+      ],
+      [
+        "因為",
+        "jan1 wai6",
+        "因为"
+      ],
+      [
+        "值得",
+        "zik6 dak1",
+        "值得"
+      ],
+      [
+        "選擇",
+        "syun2 zaak6",
+        "选择"
+      ],
+      [
+        "同意",
+        "tung4 ji3",
+        "同意"
+      ],
+      [
+        "特別",
+        "dak6 bit6",
+        "特别"
+      ]
+    ],
+    "sentences": [
+      [
+        "我覺得呢間餐廳比較抵食。",
+        "ngo5 gok3 dak1 ni1 gaan1 caan1 teng1 bei2 gaau3 dai2 sik6.",
+        "我觉得这家餐厅吃起来比较划算。"
+      ],
+      [
+        "雖然有啲遠，但係好值得去。",
+        "seoi1 jin4 jau5 di1 jyun5, daan6 hai6 hou2 zik6 dak1 heoi3.",
+        "虽然有点远，但是很值得去。"
+      ],
+      [
+        "如果你鍾意清靜，可以試吓呢度。",
+        "jyu4 gwo2 nei5 zung1 ji3 cing1 zing6, ho2 ji5 si3 haa5 ni1 dou6.",
+        "如果你喜欢安静，可以试试这里。"
+      ],
+      [
+        "我會揀呢個，因為用起上嚟方便啲。",
+        "ngo5 wui5 gaan2 ni1 go3, jan1 wai6 jung6 hei2 soeng5 lai4 fong1 bin6 di1.",
+        "我会选这个，因为用起来方便一点。"
+      ],
+      [
+        "我明白你嘅意思，不過唔係完全同意。",
+        "ngo5 ming4 baak6 nei5 ge3 ji3 si1, bat1 gwo3 m4 hai6 jyun4 cyun4 tung4 ji3.",
+        "我明白你的意思，不过不完全同意。"
+      ]
+    ]
+  },
+  {
+    "title": "说一段属于自己的粤语",
+    "topic": "计划与综合表达",
+    "challenge": "不看文字，用粤语说 30 秒：最近在做什么、为什么学粤语、下周有什么计划。",
+    "tip": "「打算」表达计划；「希望」表达愿望。",
+    "words": [
+      [
+        "打算",
+        "daa2 syun3",
+        "打算"
+      ],
+      [
+        "希望",
+        "hei1 mong6",
+        "希望"
+      ],
+      [
+        "繼續",
+        "gai3 zuk6",
+        "继续"
+      ],
+      [
+        "練習",
+        "lin6 zaap6",
+        "练习"
+      ],
+      [
+        "進步",
+        "zeon3 bou6",
+        "进步"
+      ],
+      [
+        "目標",
+        "muk6 biu1",
+        "目标"
+      ],
+      [
+        "機會",
+        "gei1 wui6",
+        "机会"
+      ],
+      [
+        "緊張",
+        "gan2 zoeng1",
+        "紧张"
+      ],
+      [
+        "堅持",
+        "gin1 ci4",
+        "坚持"
+      ],
+      [
+        "自然",
+        "zi6 jin4",
+        "自然"
+      ]
+    ],
+    "sentences": [
+      [
+        "我打算每日用二十分鐘練習廣東話。",
+        "ngo5 daa2 syun3 mui5 jat6 jung6 ji6 sap6 fan1 zung1 lin6 zaap6 gwong2 dung1 waa2.",
+        "我打算每天花二十分钟练习粤语。"
+      ],
+      [
+        "雖然講得未係好自然，但係我會繼續練。",
+        "seoi1 jin4 gong2 dak1 mei6 hai6 hou2 zi6 jin4, daan6 hai6 ngo5 wui5 gai3 zuk6 lin6.",
+        "虽然说得还不太自然，但我会继续练。"
+      ],
+      [
+        "有機會嘅話，我想同本地人傾吓偈。",
+        "jau5 gei1 wui6 ge3 waa2, ngo5 soeng2 tung4 bun2 dei6 jan4 king1 haa5 gai2.",
+        "有机会的话，我想和当地人聊聊天。"
+      ],
+      [
+        "一開始會有啲緊張，講多啲就好啲。",
+        "jat1 hoi1 ci2 wui5 jau5 di1 gan2 zoeng1, gong2 do1 di1 zau6 hou2 di1.",
+        "一开始会有点紧张，多说一点就会好些。"
+      ],
+      [
+        "希望下個月可以比而家講得流利啲。",
+        "hei1 mong6 haa6 go3 jyut6 ho2 ji5 bei2 ji4 gaa1 gong2 dak1 lau4 lei6 di1.",
+        "希望下个月可以比现在说得流利一点。"
+      ]
+    ]
+  }
+];
+
+const extraModules=[
+  {
+    "topic": "住宿与居家",
+    "goal": "处理入住、房间设施和家务问题",
+    "scenario": "你入住后发现空调不冷，请说明问题，提出换房或维修要求。",
+    "words": [
+      [
+        "預訂",
+        "jyu6 deng6",
+        "预订"
+      ],
+      [
+        "入住",
+        "jap6 zyu6",
+        "入住"
+      ],
+      [
+        "退房",
+        "teoi3 fong2",
+        "退房"
+      ],
+      [
+        "房間",
+        "fong4 gaan1",
+        "房间"
+      ],
+      [
+        "鎖匙",
+        "so2 si4",
+        "钥匙"
+      ],
+      [
+        "冷氣",
+        "laang5 hei3",
+        "空调"
+      ],
+      [
+        "熱水",
+        "jit6 seoi2",
+        "热水"
+      ],
+      [
+        "毛巾",
+        "mou4 gan1",
+        "毛巾"
+      ],
+      [
+        "乾淨",
+        "gon1 zeng6",
+        "干净"
+      ],
+      [
+        "嘈",
+        "cou4",
+        "吵"
+      ],
+      [
+        "隔籬",
+        "gaak3 lei4",
+        "隔壁／旁边"
+      ],
+      [
+        "整",
+        "zing2",
+        "修理／弄"
+      ],
+      [
+        "壞咗",
+        "waai6 zo2",
+        "坏了"
+      ],
+      [
+        "搬屋",
+        "bun1 uk1",
+        "搬家"
+      ],
+      [
+        "租",
+        "zou1",
+        "租"
+      ],
+      [
+        "按金",
+        "on3 gam1",
+        "押金"
+      ],
+      [
+        "管理處",
+        "gun2 lei5 cyu3",
+        "管理处"
+      ],
+      [
+        "倒垃圾",
+        "dou2 laap6 saap3",
+        "倒垃圾"
+      ],
+      [
+        "洗衫",
+        "sai2 saam1",
+        "洗衣服"
+      ],
+      [
+        "晾衫",
+        "long6 saam1",
+        "晾衣服"
+      ]
+    ],
+    "sentences": [
+      [
+        "我之前預訂咗一間雙人房。",
+        "ngo5 zi1 cin4 jyu6 deng6 zo2 jat1 gaan1 soeng1 jan4 fong2.",
+        "我之前预订了一间双人房。"
+      ],
+      [
+        "唔好意思，間房嘅冷氣唔夠凍。",
+        "m4 hou2 ji3 si1, gaan1 fong2 ge3 laang5 hei3 m4 gau3 dung3.",
+        "不好意思，房间的空调不够凉。"
+      ],
+      [
+        "可唔可以幫我換一間靜啲嘅房？",
+        "ho2 m4 ho2 ji5 bong1 ngo5 wun6 jat1 gaan1 zing6 di1 ge3 fong2?",
+        "可以帮我换一间安静些的房间吗？"
+      ],
+      [
+        "唔該，可唔可以畀多兩條毛巾我？",
+        "m4 goi1, ho2 m4 ho2 ji5 bei2 do1 loeng5 tiu4 mou4 gan1 ngo5?",
+        "麻烦可以再给我两条毛巾吗？"
+      ],
+      [
+        "聽日最遲幾點要退房？",
+        "ting1 jat6 zeoi3 ci4 gei2 dim2 jiu3 teoi3 fong2?",
+        "明天最晚几点要退房？"
+      ],
+      [
+        "隔籬太嘈，我成晚都瞓唔着。",
+        "gaak3 lei4 taai3 cou4, ngo5 seng4 maan5 dou1 fan3 m4 zoek6.",
+        "隔壁太吵，我整晚都睡不着。"
+      ],
+      [
+        "呢度嘅熱水爐好似壞咗。",
+        "ni1 dou6 ge3 jit6 seoi2 lou4 hou2 ci5 waai6 zo2.",
+        "这里的热水器好像坏了。"
+      ],
+      [
+        "我想問租金包唔包管理費？",
+        "ngo5 soeng2 man6 zou1 gam1 baau1 m4 baau1 gun2 lei5 fai3?",
+        "我想问租金包不包括管理费？"
+      ],
+      [
+        "搬屋之前要交幾多按金？",
+        "bun1 uk1 zi1 cin4 jiu3 gaau1 gei2 do1 on3 gam1?",
+        "搬家前需要交多少押金？"
+      ],
+      [
+        "我洗完衫先去倒垃圾。",
+        "ngo5 sai2 jyun4 saam1 sin1 heoi3 dou2 laap6 saap3.",
+        "我先洗完衣服再去倒垃圾。"
+      ]
+    ]
+  },
+  {
+    "topic": "身体不适与求医",
+    "goal": "描述症状、持续时间和预约需求",
+    "scenario": "模拟预约看医生：说明哪里不舒服、持续多久，并询问时间。只练语言，不作医疗判断。",
+    "words": [
+      [
+        "唔舒服",
+        "m4 syu1 fuk6",
+        "不舒服"
+      ],
+      [
+        "頭痛",
+        "tau4 tung3",
+        "头痛"
+      ],
+      [
+        "肚痛",
+        "tou5 tung3",
+        "肚子痛"
+      ],
+      [
+        "喉嚨",
+        "hau4 lung4",
+        "喉咙"
+      ],
+      [
+        "發燒",
+        "faat3 siu1",
+        "发烧"
+      ],
+      [
+        "咳",
+        "kat1",
+        "咳嗽"
+      ],
+      [
+        "睇醫生",
+        "tai2 ji1 sang1",
+        "看医生"
+      ],
+      [
+        "診所",
+        "can2 so2",
+        "诊所"
+      ],
+      [
+        "預約",
+        "jyu6 joek3",
+        "预约"
+      ],
+      [
+        "症狀",
+        "zing3 zong6",
+        "症状"
+      ],
+      [
+        "敏感",
+        "man5 gam2",
+        "过敏／敏感"
+      ],
+      [
+        "食藥",
+        "sik6 joek6",
+        "吃药"
+      ],
+      [
+        "藥房",
+        "joek6 fong4",
+        "药房"
+      ],
+      [
+        "休息",
+        "jau1 sik1",
+        "休息"
+      ],
+      [
+        "胃口",
+        "wai6 hau2",
+        "胃口"
+      ],
+      [
+        "暈",
+        "wan4",
+        "晕"
+      ],
+      [
+        "持續",
+        "ci4 zuk6",
+        "持续"
+      ],
+      [
+        "量體溫",
+        "loeng4 tai2 wan1",
+        "量体温"
+      ],
+      [
+        "覆診",
+        "fuk1 can2",
+        "复诊"
+      ],
+      [
+        "醫生",
+        "ji1 sang1",
+        "医生"
+      ]
+    ],
+    "sentences": [
+      [
+        "我由尋晚開始有啲頭痛。",
+        "ngo5 jau4 cam4 maan5 hoi1 ci2 jau5 di1 tau4 tung3.",
+        "我从昨晚开始有点头痛。"
+      ],
+      [
+        "我想預約今日下晝睇醫生。",
+        "ngo5 soeng2 jyu6 joek3 gam1 jat6 haa6 zau3 tai2 ji1 sang1.",
+        "我想预约今天下午看医生。"
+      ],
+      [
+        "我喉嚨痛，仲有啲咳。",
+        "ngo5 hau4 lung4 tung3, zung6 jau5 di1 kat1.",
+        "我喉咙痛，还有点咳嗽。"
+      ],
+      [
+        "呢個症狀已經持續咗三日。",
+        "ni1 go3 zing3 zong6 ji5 ging1 ci4 zuk6 zo2 saam1 jat6.",
+        "这个症状已经持续了三天。"
+      ],
+      [
+        "請問最近嘅診所喺邊度？",
+        "cing2 man6 zeoi3 gan6 ge3 can2 so2 hai2 bin1 dou6?",
+        "请问最近的诊所在哪里？"
+      ],
+      [
+        "我對某啲藥物敏感。",
+        "ngo5 deoi3 mau5 di1 joek6 mat6 man5 gam2.",
+        "我对某些药物过敏。"
+      ],
+      [
+        "呢隻藥係飯前定飯後食？",
+        "ni1 zek3 joek6 hai6 faan6 cin4 ding6 faan6 hau6 sik6?",
+        "这种药是饭前还是饭后吃？"
+      ],
+      [
+        "我呢兩日冇乜胃口。",
+        "ngo5 ni1 loeng5 jat6 mou5 mat1 wai6 hau2.",
+        "我这两天没什么胃口。"
+      ],
+      [
+        "醫生叫我休息多啲，飲多啲水。",
+        "ji1 sang1 giu3 ngo5 jau1 sik1 do1 di1, jam2 do1 di1 seoi2.",
+        "医生让我多休息、多喝水。"
+      ],
+      [
+        "請問我需唔需要再返嚟覆診？",
+        "cing2 man6 ngo5 seoi1 m4 seoi1 jiu3 zoi3 faan1 lai4 fuk1 can2?",
+        "请问我需不需要再回来复诊？"
+      ]
+    ]
+  },
+  {
+    "topic": "工作与协作",
+    "goal": "说明进度、确认任务和商量截止时间",
+    "scenario": "向同事汇报一项任务：已完成什么、遇到什么问题、何时能交付。",
+    "words": [
+      [
+        "同事",
+        "tung4 si6",
+        "同事"
+      ],
+      [
+        "開會",
+        "hoi1 wui6",
+        "开会"
+      ],
+      [
+        "文件",
+        "man4 gin2",
+        "文件"
+      ],
+      [
+        "資料",
+        "zi1 liu6",
+        "资料"
+      ],
+      [
+        "進度",
+        "zeon3 dou6",
+        "进度"
+      ],
+      [
+        "完成",
+        "jyun4 sing4",
+        "完成"
+      ],
+      [
+        "負責",
+        "fu6 zaak3",
+        "负责"
+      ],
+      [
+        "跟進",
+        "gan1 zeon3",
+        "跟进"
+      ],
+      [
+        "確認",
+        "kok3 jan6",
+        "确认"
+      ],
+      [
+        "截止",
+        "zit6 zi2",
+        "截止"
+      ],
+      [
+        "趕",
+        "gon2",
+        "赶"
+      ],
+      [
+        "遲",
+        "ci4",
+        "迟／晚"
+      ],
+      [
+        "安排",
+        "on1 paai4",
+        "安排"
+      ],
+      [
+        "討論",
+        "tou2 leon6",
+        "讨论"
+      ],
+      [
+        "修改",
+        "sau1 goi2",
+        "修改"
+      ],
+      [
+        "意見",
+        "ji3 gin3",
+        "意见"
+      ],
+      [
+        "通知",
+        "tung1 zi1",
+        "通知"
+      ],
+      [
+        "收到",
+        "sau1 dou2",
+        "收到"
+      ],
+      [
+        "交",
+        "gaau1",
+        "提交／交给"
+      ],
+      [
+        "抽時間",
+        "cau1 si4 gaan3",
+        "抽时间"
+      ]
+    ],
+    "sentences": [
+      [
+        "我想同你確認吓開會嘅時間。",
+        "ngo5 soeng2 tung4 nei5 kok3 jan6 haa5 hoi1 wui6 ge3 si4 gaan3.",
+        "我想和你确认一下开会的时间。"
+      ],
+      [
+        "呢份文件我仲有少少未做完。",
+        "ni1 fan6 man4 gin2 ngo5 zung6 jau5 siu2 siu2 mei6 zou6 jyun4.",
+        "这份文件我还有一点没做完。"
+      ],
+      [
+        "你可唔可以幫手跟進呢件事？",
+        "nei5 ho2 m4 ho2 ji5 bong1 sau2 gan1 zeon3 ni1 gin6 si6?",
+        "你可以帮忙跟进这件事吗？"
+      ],
+      [
+        "我負責整理資料，你負責聯絡同事。",
+        "ngo5 fu6 zaak3 zing2 lei5 zi1 liu6, nei5 fu6 zaak3 lyun4 lok3 tung4 si6.",
+        "我负责整理资料，你负责联系同事。"
+      ],
+      [
+        "如果有新進度，我會即刻通知你。",
+        "jyu4 gwo2 jau5 san1 zeon3 dou6, ngo5 wui5 zik1 hak1 tung1 zi1 nei5.",
+        "如果有新进展，我会马上通知你。"
+      ],
+      [
+        "今日可能趕唔切，聽朝交得唔得？",
+        "gam1 jat6 ho2 nang4 gon2 m4 cit3, ting1 ziu1 gaau1 dak1 m4 dak1?",
+        "今天可能来不及，明早交可以吗？"
+      ],
+      [
+        "我收到你嘅意見，會再修改。",
+        "ngo5 sau1 dou2 nei5 ge3 ji3 gin3, wui5 zoi3 sau1 goi2.",
+        "我收到了你的意见，会再修改。"
+      ],
+      [
+        "可唔可以抽十分鐘討論吓？",
+        "ho2 m4 ho2 ji5 cau1 sap6 fan1 zung1 tou2 leon6 haa5?",
+        "可以抽十分钟讨论一下吗？"
+      ],
+      [
+        "唔好意思，我想再確認一次要求。",
+        "m4 hou2 ji3 si1, ngo5 soeng2 zoi3 kok3 jan6 jat1 ci3 jiu1 kau4.",
+        "不好意思，我想再确认一次要求。"
+      ],
+      [
+        "我做完之後會發畀你。",
+        "ngo5 zou6 jyun4 zi1 hau6 wui5 faat3 bei2 nei5.",
+        "我做完之后会发给你。"
+      ]
+    ]
+  },
+  {
+    "topic": "电话与线上沟通",
+    "goal": "接电话、留口信和排查联网问题",
+    "scenario": "模拟一通电话：先确认身份，说明连接问题，约好稍后回电。",
+    "words": [
+      [
+        "電話",
+        "din6 waa2",
+        "电话"
+      ],
+      [
+        "聽電話",
+        "teng1 din6 waa2",
+        "接电话"
+      ],
+      [
+        "打電話",
+        "daa2 din6 waa2",
+        "打电话"
+      ],
+      [
+        "留言",
+        "lau4 jin4",
+        "留言"
+      ],
+      [
+        "覆",
+        "fuk1",
+        "回复"
+      ],
+      [
+        "訊息",
+        "seon3 sik1",
+        "消息"
+      ],
+      [
+        "收唔到",
+        "sau1 m4 dou2",
+        "收不到"
+      ],
+      [
+        "上網",
+        "soeng5 mong5",
+        "上网"
+      ],
+      [
+        "連線",
+        "lin4 sin3",
+        "连接"
+      ],
+      [
+        "密碼",
+        "mat6 maa5",
+        "密码"
+      ],
+      [
+        "重新",
+        "cung4 san1",
+        "重新"
+      ],
+      [
+        "開機",
+        "hoi1 gei1",
+        "开机"
+      ],
+      [
+        "關機",
+        "gwaan1 gei1",
+        "关机"
+      ],
+      [
+        "畫面",
+        "waa6 min6",
+        "画面"
+      ],
+      [
+        "下載",
+        "haa6 zoi3",
+        "下载"
+      ],
+      [
+        "附件",
+        "fu6 gin2",
+        "附件"
+      ],
+      [
+        "電郵",
+        "din6 jau4",
+        "电子邮件"
+      ],
+      [
+        "網址",
+        "mong5 zi2",
+        "网址"
+      ],
+      [
+        "訊號",
+        "seon3 hou6",
+        "信号"
+      ],
+      [
+        "聯絡",
+        "lyun4 lok3",
+        "联系"
+      ]
+    ],
+    "sentences": [
+      [
+        "喂，請問阿明喺唔喺度？",
+        "wai2, cing2 man6 aa3 ming4 hai2 m4 hai2 dou6?",
+        "喂，请问阿明在吗？"
+      ],
+      [
+        "佢而家唔方便聽電話，你要唔要留言？",
+        "keoi5 ji4 gaa1 m4 fong1 bin6 teng1 din6 waa2, nei5 jiu3 m4 jiu3 lau4 jin4?",
+        "他现在不方便接电话，你要不要留言？"
+      ],
+      [
+        "唔該，叫佢得閒覆我電話。",
+        "m4 goi1, giu3 keoi5 dak1 haan4 fuk1 ngo5 din6 waa2.",
+        "麻烦让他有空给我回电话。"
+      ],
+      [
+        "呢度訊號唔係幾好，我聽唔清楚。",
+        "ni1 dou6 seon3 hou6 m4 hai6 gei2 hou2, ngo5 teng1 m4 cing1 co2.",
+        "这里信号不太好，我听不清楚。"
+      ],
+      [
+        "我轉個地方再打畀你。",
+        "ngo5 zyun3 go3 dei6 fong1 zoi3 daa2 bei2 nei5.",
+        "我换个地方再打给你。"
+      ],
+      [
+        "我已經發咗電郵，你收到未？",
+        "ngo5 ji5 ging1 faat3 zo2 din6 jau4, nei5 sau1 dou2 mei6?",
+        "我已经发了邮件，你收到了吗？"
+      ],
+      [
+        "唔好意思，我開唔到個附件。",
+        "m4 hou2 ji3 si1, ngo5 hoi1 m4 dou2 go3 fu6 gin2.",
+        "不好意思，我打不开附件。"
+      ],
+      [
+        "可唔可以再發一次個網址？",
+        "ho2 m4 ho2 ji5 zoi3 faat3 jat1 ci3 go3 mong5 zi2?",
+        "可以再发一次网址吗？"
+      ],
+      [
+        "我試過重新開機，但係仲上唔到網。",
+        "ngo5 si3 gwo3 cung4 san1 hoi1 gei1, daan6 hai6 zung6 soeng5 m4 dou2 mong5.",
+        "我试过重新开机，但还是上不了网。"
+      ],
+      [
+        "密碼唔使畀我，你自己輸入就得。",
+        "mat6 maa5 m4 sai2 bei2 ngo5, nei5 zi6 gei2 syu1 jap6 zau6 dak1.",
+        "不用把密码给我，你自己输入就可以。"
+      ]
+    ]
+  },
+  {
+    "topic": "付款、退换与服务",
+    "goal": "确认支付、解释退货原因和保存凭证",
+    "scenario": "买到尺寸不合适的衣服，说明原因、询问换货，并确认差价。",
+    "words": [
+      [
+        "現金",
+        "jin6 gam1",
+        "现金"
+      ],
+      [
+        "信用卡",
+        "seon3 jung6 kaat1",
+        "信用卡"
+      ],
+      [
+        "轉賬",
+        "zyun2 zoeng3",
+        "转账"
+      ],
+      [
+        "收據",
+        "sau1 geoi3",
+        "收据"
+      ],
+      [
+        "找錢",
+        "zaau2 cin2",
+        "找零"
+      ],
+      [
+        "付款",
+        "fu6 fun2",
+        "付款"
+      ],
+      [
+        "退款",
+        "teoi3 fun2",
+        "退款"
+      ],
+      [
+        "換貨",
+        "wun6 fo3",
+        "换货"
+      ],
+      [
+        "尺碼",
+        "cek3 maa5",
+        "尺码"
+      ],
+      [
+        "差價",
+        "caa1 gaa3",
+        "差价"
+      ],
+      [
+        "優惠",
+        "jau1 wai6",
+        "优惠"
+      ],
+      [
+        "折扣",
+        "zit3 kau3",
+        "折扣"
+      ],
+      [
+        "保養",
+        "bou2 joeng5",
+        "保修／保养"
+      ],
+      [
+        "到期",
+        "dou3 kei4",
+        "到期"
+      ],
+      [
+        "訂單",
+        "deng6 daan1",
+        "订单"
+      ],
+      [
+        "送貨",
+        "sung3 fo3",
+        "送货"
+      ],
+      [
+        "運費",
+        "wan6 fai3",
+        "运费"
+      ],
+      [
+        "損壞",
+        "syun2 waai6",
+        "损坏"
+      ],
+      [
+        "退貨",
+        "teoi3 fo3",
+        "退货"
+      ],
+      [
+        "查詢",
+        "caa4 seon1",
+        "查询"
+      ]
+    ],
+    "sentences": [
+      [
+        "請問可唔可以用信用卡付款？",
+        "cing2 man6 ho2 m4 ho2 ji5 jung6 seon3 jung6 kaat1 fu6 fun2?",
+        "请问可以用信用卡付款吗？"
+      ],
+      [
+        "唔該，我想要返張收據。",
+        "m4 goi1, ngo5 soeng2 jiu3 faan1 zoeng1 sau1 geoi3.",
+        "麻烦我想要一张收据。"
+      ],
+      [
+        "件衫細咗啲，可唔可以換大一個碼？",
+        "gin6 saam1 sai3 zo2 di1, ho2 m4 ho2 ji5 wun6 daai6 jat1 go3 maa5?",
+        "这件衣服小了点，可以换大一码吗？"
+      ],
+      [
+        "如果換呢款，要補幾多差價？",
+        "jyu4 gwo2 wun6 ni1 fun2, jiu3 bou2 gei2 do1 caa1 gaa3?",
+        "如果换这款，需要补多少差价？"
+      ],
+      [
+        "我仲留住張單，想問可唔可以退貨。",
+        "ngo5 zung6 lau4 zyu6 zoeng1 daan1, soeng2 man6 ho2 m4 ho2 ji5 teoi3 fo3.",
+        "我还留着单据，想问能不能退货。"
+      ],
+      [
+        "我收到件貨嗰陣已經有損壞。",
+        "ngo5 sau1 dou2 gin6 fo3 go2 zan6 ji5 ging1 jau5 syun2 waai6.",
+        "我收到货的时候已经有损坏。"
+      ],
+      [
+        "呢個價錢包唔包送貨？",
+        "ni1 go3 gaa3 cin2 baau1 m4 baau1 sung3 fo3?",
+        "这个价钱包不包括送货？"
+      ],
+      [
+        "請問退款通常要等幾耐？",
+        "cing2 man6 teoi3 fun2 tung1 soeng4 jiu3 dang2 gei2 noi6?",
+        "请问退款通常要等多久？"
+      ],
+      [
+        "我想查詢呢張訂單嘅進度。",
+        "ngo5 soeng2 caa4 seon1 ni1 zoeng1 deng6 daan1 ge3 zeon3 dou6.",
+        "我想查询这个订单的进度。"
+      ],
+      [
+        "呢個優惠幾時到期？",
+        "ni1 go3 jau1 wai6 gei2 si4 dou3 kei4?",
+        "这个优惠什么时候到期？"
+      ]
+    ]
+  },
+  {
+    "topic": "兴趣、运动与社交",
+    "goal": "描述爱好、邀请参与和礼貌拒绝",
+    "scenario": "邀请朋友一起运动；对方没空时，理解对方并提出下次再约。",
+    "words": [
+      [
+        "興趣",
+        "hing3 ceoi3",
+        "兴趣"
+      ],
+      [
+        "跑步",
+        "paau2 bou6",
+        "跑步"
+      ],
+      [
+        "游水",
+        "jau4 seoi2",
+        "游泳"
+      ],
+      [
+        "行山",
+        "haang4 saan1",
+        "徒步登山"
+      ],
+      [
+        "散步",
+        "saan3 bou6",
+        "散步"
+      ],
+      [
+        "運動",
+        "wan6 dung6",
+        "运动"
+      ],
+      [
+        "影相",
+        "jing2 soeng2",
+        "拍照"
+      ],
+      [
+        "聽歌",
+        "teng1 go1",
+        "听歌"
+      ],
+      [
+        "煮飯",
+        "zyu2 faan6",
+        "做饭"
+      ],
+      [
+        "睇書",
+        "tai2 syu1",
+        "看书"
+      ],
+      [
+        "報名",
+        "bou3 meng2",
+        "报名"
+      ],
+      [
+        "參加",
+        "caam1 gaa1",
+        "参加"
+      ],
+      [
+        "活動",
+        "wut6 dung6",
+        "活动"
+      ],
+      [
+        "陪",
+        "pui4",
+        "陪伴"
+      ],
+      [
+        "啱",
+        "aam1",
+        "适合／对"
+      ],
+      [
+        "推辭",
+        "teoi1 ci4",
+        "推辞"
+      ],
+      [
+        "可惜",
+        "ho2 sik1",
+        "可惜"
+      ],
+      [
+        "下次",
+        "haa6 ci3",
+        "下次"
+      ],
+      [
+        "期待",
+        "kei4 doi6",
+        "期待"
+      ],
+      [
+        "放鬆",
+        "fong3 sung1",
+        "放松"
+      ]
+    ],
+    "sentences": [
+      [
+        "我平時放工之後會去跑步。",
+        "ngo5 ping4 si4 fong3 gung1 zi1 hau6 wui5 heoi3 paau2 bou6.",
+        "我平时下班以后会去跑步。"
+      ],
+      [
+        "你除咗睇戲，仲有咩興趣？",
+        "nei5 ceoi4 zo2 tai2 hei3, zung6 jau5 me1 hing3 ceoi3?",
+        "你除了看电影，还有什么爱好？"
+      ],
+      [
+        "我最近開始學煮飯，覺得幾有趣。",
+        "ngo5 zeoi3 gan6 hoi1 ci2 hok6 zyu2 faan6, gok3 dak1 gei2 jau5 ceoi3.",
+        "我最近开始学做饭，觉得挺有趣。"
+      ],
+      [
+        "星期日一齊去行山，你有冇興趣？",
+        "sing1 kei4 jat6 jat1 cai4 heoi3 haang4 saan1, nei5 jau5 mou5 hing3 ceoi3?",
+        "星期日一起去徒步，你有兴趣吗？"
+      ],
+      [
+        "我未試過呢個活動，新手參加得唔得？",
+        "ngo5 mei6 si3 gwo3 ni1 go3 wut6 dung6, san1 sau2 caam1 gaa1 dak1 m4 dak1?",
+        "我没试过这个活动，新手可以参加吗？"
+      ],
+      [
+        "唔好意思，今次我有事嚟唔到。",
+        "m4 hou2 ji3 si1, gam1 ci3 ngo5 jau5 si6 lai4 m4 dou2.",
+        "不好意思，这次我有事来不了。"
+      ],
+      [
+        "好可惜呀，不如下次再約。",
+        "hou2 ho2 sik1 aa3, bat1 jyu4 haa6 ci3 zoi3 joek3.",
+        "好可惜呀，不如下次再约。"
+      ],
+      [
+        "我想搵啲輕鬆啲嘅運動嚟做。",
+        "ngo5 soeng2 wan2 di1 hing1 sung1 di1 ge3 wan6 dung6 lai4 zou6.",
+        "我想找一些轻松一点的运动来做。"
+      ],
+      [
+        "得閒出去散吓步，可以放鬆吓。",
+        "dak1 haan4 ceot1 heoi3 saan3 haa5 bou6, ho2 ji5 fong3 sung1 haa5.",
+        "有空出去散散步，可以放松一下。"
+      ],
+      [
+        "多謝你邀請我，我好期待。",
+        "do1 ze6 nei5 jiu1 cing2 ngo5, ngo5 hou2 kei4 doi6.",
+        "谢谢你邀请我，我很期待。"
+      ]
+    ]
+  },
+  {
+    "topic": "突发情况与应变",
+    "goal": "清楚说明遗失、迟到和临时改变",
+    "scenario": "模拟遗失背包：说明物品特征、最后见到的地方，并询问求助方式。",
+    "words": [
+      [
+        "唔見咗",
+        "m4 gin3 zo2",
+        "不见了"
+      ],
+      [
+        "銀包",
+        "ngan4 baau1",
+        "钱包"
+      ],
+      [
+        "背囊",
+        "bui3 nong4",
+        "背包"
+      ],
+      [
+        "證件",
+        "zing3 gin2",
+        "证件"
+      ],
+      [
+        "報失",
+        "bou3 sat1",
+        "报失"
+      ],
+      [
+        "服務台",
+        "fuk6 mou6 toi4",
+        "服务台"
+      ],
+      [
+        "特徵",
+        "dak6 zing1",
+        "特征"
+      ],
+      [
+        "最後",
+        "zeoi3 hau6",
+        "最后"
+      ],
+      [
+        "記得",
+        "gei3 dak1",
+        "记得"
+      ],
+      [
+        "附近",
+        "fu6 gan6",
+        "附近"
+      ],
+      [
+        "塞車",
+        "sak1 ce1",
+        "堵车"
+      ],
+      [
+        "取消",
+        "ceoi2 siu1",
+        "取消"
+      ],
+      [
+        "臨時",
+        "lam4 si4",
+        "临时"
+      ],
+      [
+        "改期",
+        "goi2 kei4",
+        "改期"
+      ],
+      [
+        "安全",
+        "on1 cyun4",
+        "安全"
+      ],
+      [
+        "小心",
+        "siu2 sam1",
+        "小心"
+      ],
+      [
+        "幫忙",
+        "bong1 mong4",
+        "帮忙"
+      ],
+      [
+        "處理",
+        "cyu2 lei5",
+        "处理"
+      ],
+      [
+        "盡快",
+        "zeon6 faai3",
+        "尽快"
+      ],
+      [
+        "趕唔切",
+        "gon2 m4 cit3",
+        "来不及"
+      ]
+    ],
+    "sentences": [
+      [
+        "唔好意思，我個背囊唔見咗。",
+        "m4 hou2 ji3 si1, ngo5 go3 bui3 nong4 m4 gin3 zo2.",
+        "不好意思，我的背包不见了。"
+      ],
+      [
+        "係一個黑色背囊，入面有個銀包。",
+        "hai6 jat1 go3 hak1 sik1 bui3 nong4, jap6 min6 jau5 go3 ngan4 baau1.",
+        "是一个黑色背包，里面有个钱包。"
+      ],
+      [
+        "我最後見到佢係喺巴士站。",
+        "ngo5 zeoi3 hau6 gin3 dou2 keoi5 hai6 hai2 baa1 si2 zaam6.",
+        "我最后见到它是在公交站。"
+      ],
+      [
+        "請問我應該去邊度報失？",
+        "cing2 man6 ngo5 jing1 goi1 heoi3 bin1 dou6 bou3 sat1?",
+        "请问我应该去哪里报失？"
+      ],
+      [
+        "如果有人搵到，麻煩你聯絡我。",
+        "jyu4 gwo2 jau5 jan4 wan2 dou2, maa4 faan4 nei5 lyun4 lok3 ngo5.",
+        "如果有人找到，麻烦你联系我。"
+      ],
+      [
+        "而家塞緊車，我可能會遲到。",
+        "ji4 gaa1 sak1 gan2 ce1, ngo5 ho2 nang4 wui5 ci4 dou3.",
+        "现在正在堵车，我可能会迟到。"
+      ],
+      [
+        "唔好意思，我臨時有事，要改期。",
+        "m4 hou2 ji3 si1, ngo5 lam4 si4 jau5 si6, jiu3 goi2 kei4.",
+        "不好意思，我临时有事，需要改期。"
+      ],
+      [
+        "我會盡快處理，再同你講結果。",
+        "ngo5 wui5 zeon6 faai3 cyu2 lei5, zoi3 tung4 nei5 gong2 git3 gwo2.",
+        "我会尽快处理，再告诉你结果。"
+      ],
+      [
+        "如果趕唔切，我哋就改搭地鐵。",
+        "jyu4 gwo2 gon2 m4 cit3, ngo5 dei6 zau6 goi2 daap3 dei6 tit3.",
+        "如果来不及，我们就改坐地铁。"
+      ],
+      [
+        "你小心啲，安全最緊要。",
+        "nei5 siu2 sam1 di1, on1 cyun4 zeoi3 gan2 jiu3.",
+        "你小心一点，安全最重要。"
+      ]
+    ]
+  },
+  {
+    "topic": "综合交流与个人故事",
+    "goal": "连接过去、现在和未来，完成较长对话",
+    "scenario": "不看笔记说两分钟：介绍自己、讲一次经历、说明最近的变化和下个月的计划。再练习回答追问。",
+    "words": [
+      [
+        "經歷",
+        "ging1 lik6",
+        "经历"
+      ],
+      [
+        "以前",
+        "ji5 cin4",
+        "以前"
+      ],
+      [
+        "後來",
+        "hau6 loi4",
+        "后来"
+      ],
+      [
+        "當時",
+        "dong1 si4",
+        "当时"
+      ],
+      [
+        "原來",
+        "jyun4 loi4",
+        "原来"
+      ],
+      [
+        "終於",
+        "zung1 jyu1",
+        "终于"
+      ],
+      [
+        "印象",
+        "jan3 zoeng6",
+        "印象"
+      ],
+      [
+        "難忘",
+        "naan4 mong4",
+        "难忘"
+      ],
+      [
+        "適應",
+        "sik1 jing3",
+        "适应"
+      ],
+      [
+        "改變",
+        "goi2 bin3",
+        "改变"
+      ],
+      [
+        "原因",
+        "jyun4 jan1",
+        "原因"
+      ],
+      [
+        "過程",
+        "gwo3 cing4",
+        "过程"
+      ],
+      [
+        "發現",
+        "faat3 jin6",
+        "发现"
+      ],
+      [
+        "學識",
+        "hok6 sik1",
+        "学会"
+      ],
+      [
+        "至少",
+        "zi3 siu2",
+        "至少"
+      ],
+      [
+        "越嚟越",
+        "jyut6 lai4 jyut6",
+        "越来越"
+      ],
+      [
+        "未必",
+        "mei6 bit1",
+        "未必"
+      ],
+      [
+        "總之",
+        "zung2 zi1",
+        "总之"
+      ],
+      [
+        "將來",
+        "zoeng1 loi4",
+        "将来"
+      ],
+      [
+        "信心",
+        "seon3 sam1",
+        "信心"
+      ]
+    ],
+    "sentences": [
+      [
+        "以前我唔敢開口，而家有信心咗。",
+        "ji5 cin4 ngo5 m4 gam2 hoi1 hau2, ji4 gaa1 jau5 seon3 sam1 zo2.",
+        "以前我不敢开口，现在更有信心了。"
+      ],
+      [
+        "最難忘嗰次係我第一次自己去旅行。",
+        "zeoi3 naan4 mong4 go2 ci3 hai6 ngo5 dai6 jat1 ci3 zi6 gei2 heoi3 leoi5 hang4.",
+        "最难忘的是我第一次独自旅行。"
+      ],
+      [
+        "當時我好緊張，後來發現冇想像中咁難。",
+        "dong1 si4 ngo5 hou2 gan2 zoeng1, hau6 loi4 faat3 jin6 mou5 soeng2 zoeng6 zung1 gam3 naan4.",
+        "当时我很紧张，后来发现没有想象中那么难。"
+      ],
+      [
+        "原來講錯都唔緊要，最緊要係繼續講。",
+        "jyun4 loi4 gong2 co3 dou1 m4 gan2 jiu3, zeoi3 gan2 jiu3 hai6 gai3 zuk6 gong2.",
+        "原来说错也没关系，最重要的是继续说。"
+      ],
+      [
+        "我終於可以用廣東話講清楚自己想要啲咩。",
+        "ngo5 zung1 jyu1 ho2 ji5 jung6 gwong2 dung1 waa2 gong2 cing1 co2 zi6 gei2 soeng2 jiu3 di1 me1.",
+        "我终于能用粤语说清楚自己想要什么。"
+      ],
+      [
+        "呢段時間我學識咗唔少生活用語。",
+        "ni1 dyun6 si4 gaan3 ngo5 hok6 sik1 zo2 m4 siu2 sang1 wut6 jung6 jyu5.",
+        "这段时间我学会了不少生活用语。"
+      ],
+      [
+        "雖然未必每句都聽得明，但係已經進步咗。",
+        "seoi1 jin4 mei6 bit1 mui5 geoi3 dou1 teng1 dak1 ming4, daan6 hai6 ji5 ging1 zeon3 bou6 zo2.",
+        "虽然未必每句话都听得懂，但已经进步了。"
+      ],
+      [
+        "我發現每日練少少，比一次學好多更適合我。",
+        "ngo5 faat3 jin6 mui5 jat6 lin6 siu2 siu2, bei2 jat1 ci3 hok6 hou2 do1 gang3 sik1 hap6 ngo5.",
+        "我发现每天练一点，比一次学很多更适合我。"
+      ],
+      [
+        "將來我想搵多啲機會同人用廣東話傾偈。",
+        "zoeng1 loi4 ngo5 soeng2 wan2 do1 di1 gei1 wui6 tung4 jan4 jung6 gwong2 dung1 waa2 king1 gai2.",
+        "以后我想找更多机会用粤语和别人聊天。"
+      ],
+      [
+        "總之，我會繼續練，希望講得越嚟越自然。",
+        "zung2 zi1, ngo5 wui5 gai3 zuk6 lin6, hei1 mong6 gong2 dak1 jyut6 lai4 jyut6 zi6 jin4.",
+        "总之，我会继续练，希望说得越来越自然。"
+      ]
+    ]
+  }
+];
+const paired=[
+ ['日常问候与近况',0,0,'介绍自己，并说说最近的生活变化。'],
+ ['餐厅点餐与口味',1,1,'模拟点餐：说明人数、口味要求，并结账。'],
+ ['购物选择与比较',2,5,'比较两件商品，解释偏好，再询问价格。'],
+ ['出行问路与确认',3,4,'问路后重复确认路线，再请对方解释不明白的地方。'],
+ ['时间安排与邀约',4,2,'邀请朋友见面，协商时间，并处理临时改约。'],
+ ['感受与生活经历',5,3,'描述心情或天气，再讲一件最近发生的小事。'],
+ ['学习交流与计划',6,6,'说明学习粤语的原因、困难和下一步计划。']
+].map(([topic,a,b,scenario])=>({topic,scenario,goal:advancedLessons[b].challenge,tip:advancedLessons[b].tip,words:[...lessons[a].words,...advancedLessons[b].words],sentences:[...lessons[a].sentences,...advancedLessons[b].sentences]}));
+const courseModules=[...paired,...extraModules];
+const dayFormats=[
+ {label:'新课 · 场景基础',kind:'new',task:'读懂今天的词句，换掉人物、时间或地点，口头改写至少 3 句。',wordIds:[0,1,2,3,4,5,6,7,8,9],sentenceIds:[0,1,2,3,4]},
+ {label:'新课 · 自然表达',kind:'new',task:'跟读较长句子，注意连接词和语气；用其中 2 句说自己的情况。',wordIds:[10,11,12,13,14,15,16,17,18,19],sentenceIds:[5,6,7,8,9]},
+ {label:'复习 · 主动回想',kind:'recall',task:'遮住粤语和粤拼，看普通话回想表达。完成后揭晓，找出 3 个最不熟的项目再说一遍。',wordIds:[0,2,4,6,8,10,12,14,16,18],sentenceIds:[0,2,4,6,8]},
+ {label:'复习 · 听辨跟读',kind:'listen',task:'如有粤语语音，进入听辨模式，隐藏文字听懂后再揭晓、跟读。没有语音时，先读后遮住文字复述。',wordIds:[1,3,5,7,9,11,13,15,17,19],sentenceIds:[1,3,5,7,9]},
+ {label:'实战 · 情景对话',kind:'roleplay',task:'先用今日词句热身，再模拟双方各说至少 3 句。更换一个条件，例如时间、地点或要求，再演一遍。',wordIds:[0,3,6,9,10,12,14,16,18,19],sentenceIds:[0,3,5,7,9]},
+ {label:'检验 · 模块小测',kind:'assessment',task:'不看文字完成场景任务。自查：能说明需求、能追问、能回应变化。卡住就回看，再独立讲一次。',wordIds:[1,2,4,5,7,8,11,13,15,17],sentenceIds:[1,2,4,6,8]}
+];
+const ninetyLessons=courseModules.flatMap((m,moduleIndex)=>dayFormats.map((f,i)=>({
+ title:`${m.topic} · ${['先会说','说自然','记得牢','听得懂','接得上','自己讲'][i]}`,
+ topic:m.topic,module:moduleIndex,stage:moduleIndex<5?'生活起步':moduleIndex<10?'日常展开':'自主交流',
+ day:moduleIndex*6+i+1,kind:f.kind,format:f.label,
+ goal:m.goal,challenge:`${f.task} 场景：${m.scenario}`,
+ tip:m.tip||'先说明情况，再提出需求；没听懂时，追问并用自己的话确认。',
+ words:f.wordIds.map(n=>m.words[n]),sentences:f.sentenceIds.map(n=>m.sentences[n])
+})));
+
+const dateKey=(date=new Date())=>`${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,'0')}-${String(date.getDate()).padStart(2,'0')}`;
+function streak(dates,now=new Date()){const set=new Set(dates);const day=new Date(now.getFullYear(),now.getMonth(),now.getDate(),12);if(!set.has(dateKey(day)))day.setDate(day.getDate()-1);let count=0;while(set.has(dateKey(day))){count++;day.setDate(day.getDate()-1);}return count;}
+function currentLesson(state,today,total){const entry=state.checkins.find(x=>x.date===today);return entry?entry.lesson:Math.min(state.completed.length,total-1);}
+
+const progressKeys={'daily-cantonese-v1':7,'daily-cantonese-advanced-v1':7,'daily-cantonese-90-v1':90};
+const empty=()=>({completed:[],checkins:[],marks:{},sessions:{},challenges:{}});
+const validDate=s=>typeof s==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(s)&&!Number.isNaN(Date.parse(s+'T12:00:00Z'))&&new Date(s+'T12:00:00Z').toISOString().slice(0,10)===s;
+function validateProgress(value,total){
+ const fail=()=>{throw new Error('学习记录格式不正确，请选择从本 App 导出的备份。');};
+ if(!value||typeof value!=='object'||!Array.isArray(value.completed)||!Array.isArray(value.checkins)||!value.marks||!value.sessions)fail();
+ const id=n=>Number.isInteger(n)&&n>=0&&n<total;
+ if(value.completed.length>total||!value.completed.every(id)||new Set(value.completed).size!==value.completed.length)fail();
+ // Courses advance in order. This keeps the next-day lesson deterministic.
+ if(!value.completed.every((n,i)=>n===i))fail();
+ if(value.checkins.length>10000)fail();
+ const dates=new Set();
+ const checkins=value.checkins.map(x=>{if(!x||!validDate(x.date)||!id(x.lesson)||!value.completed.includes(x.lesson)||dates.has(x.date))fail();dates.add(x.date);return {date:x.date,lesson:x.lesson};});
+ const result=empty();result.completed=[...value.completed];result.checkins=checkins;
+ for(const [k,items] of Object.entries(value.marks)){if(!/^\d+$/.test(k)||!id(Number(k))||!Array.isArray(items)||items.length>15||new Set(items).size!==items.length||!items.every(x=>typeof x==='string'&&/^(w[0-9]|s[0-4])$/.test(x)))fail();result.marks[k]=[...items];}
+ for(const [k,v] of Object.entries(value.sessions)){if(!validDate(k)||!Number.isInteger(v)||v<0||v>1200)fail();result.sessions[k]=v;}
+ for(const [k,v] of Object.entries(value.challenges||{})){if(!/^\d+$/.test(k)||!id(Number(k))||typeof v!=='boolean')fail();result.challenges[k]=v;}
+ return result;
+}
+function parseBackup(text){
+ const backup=JSON.parse(text);if(backup?.app!=='daily-cantonese'||backup.version!==1||!backup.records||typeof backup.records!=='object')throw new Error('不是有效的日日粤备份文件。');
+ const records={};for(const [key,value] of Object.entries(backup.records)){if(!Object.hasOwn(progressKeys,key))throw new Error('备份包含无法识别的课程。');records[key]=validateProgress(value,progressKeys[key]);}
+ if(!Object.keys(records).length)throw new Error('备份没有学习记录。');return records;
+}
+
+// Only Cantonese voices: never silently fall back to Mandarin.
+function cantoneseVoice(voices){
+  const suitable=voices.filter(v=>/^(yue(?:[-_]|$)|zh[-_]hk$)/i.test(v.lang));
+  return suitable.find(v=>v.localService)||suitable[0]||null;
+}
+function createSpeech(onChange=()=>{}){
+  const synth=window.speechSynthesis;
+  let voice=null,active=null,watchdog=null;
+  const available=!!synth&&typeof window.SpeechSynthesisUtterance==='function';
+  function refresh(){voice=available?cantoneseVoice(synth.getVoices()):null;onChange();}
+  function stop(){clearTimeout(watchdog);active=null;if(available)synth.cancel();onChange();}
+  function play(text,rate){
+    if(!available)return;
+    voice=cantoneseVoice(synth.getVoices());
+    if(!voice){onChange();return;}
+    stop();
+    const utterance=new window.SpeechSynthesisUtterance(text);active=utterance;
+    utterance.voice=voice;utterance.lang=voice.lang;utterance.rate=rate;utterance.volume=1;
+    const finish=()=>{if(active!==utterance)return;clearTimeout(watchdog);active=null;onChange();};
+    const fail=()=>{if(active!==utterance)return;finish();window.dispatchEvent(new CustomEvent('speechfailure'));};
+    utterance.onstart=()=>clearTimeout(watchdog);utterance.onend=finish;utterance.onerror=fail;
+    watchdog=setTimeout(()=>{if(active===utterance){synth.cancel();fail();}},12000);
+    onChange();try{synth.resume();synth.speak(utterance);}catch{fail();}
+  }
+  if(available)synth.addEventListener('voiceschanged',refresh);
+  voice=available?cantoneseVoice(synth.getVoices()):null;
+  window.addEventListener('pagehide',stop);
+  return {play,stop,refresh,get voice(){return voice;},get available(){return available;},get speaking(){return !!active;}};
+}
+
+const plans={basic:{name:'零基础',key:'daily-cantonese-v1',lessons},advanced:{name:'进阶入门',key:'daily-cantonese-advanced-v1',lessons:advancedLessons},ninety:{name:'90 天计划',key:'daily-cantonese-90-v1',lessons:ninetyLessons}};
+let level='ninety',storage=true;
+try{if(localStorage.getItem('daily-cantonese-90-introduced')){const saved=localStorage.getItem('daily-cantonese-level');if(Object.hasOwn(plans,saved))level=saved;}else{localStorage.setItem('daily-cantonese-90-introduced','1');localStorage.setItem('daily-cantonese-level','ninety');}}catch{storage=false;}
+const freshState=()=>({completed:[],checkins:[],marks:{},sessions:{},challenges:{}});
+let course=plans[level].lessons,key=plans[level].key;
+function loadState(){try{const raw=localStorage.getItem(key);return raw?validateProgress(JSON.parse(raw),course.length):freshState();}catch{storage=false;return freshState();}}
+let state=loadState();
+let today=dateKey(),view='learn',tab='words',reviewId=null,running=false,lastTick=Date.now(),recall=false,listening=false,pendingImport=null;
+const app=document.querySelector('#app');
+const speech=createSpeech(updateSpeech);
+window.addEventListener('speechfailure',()=>toast('朗读未能播放。请检查设备音量、粤语语音下载状态，或换用 Safari 重试。'));
+function toast(message){const el=document.querySelector('#toast');el.textContent=message;el.style.display='block';clearTimeout(toast.t);toast.t=setTimeout(()=>el.style.display='none',5000);}
+function save(){try{localStorage.setItem(key,JSON.stringify(state));}catch{storage=false;toast('浏览器无法保存记录，请允许本地存储，或导出备份。');}}
+function lessonId(){return reviewId??currentLesson(state,today,course.length);}
+function marks(id){return state.marks[id]||[];}
+function challengeDone(){return !!state.challenges?.[lessonId()];}
+function readyToCheckin(){return marks(lessonId()).length===15&&(level==='basic'||challengeDone());}
+function seconds(){return state.sessions[today]||0;}
+function timeText(){const n=Math.max(0,1200-seconds());return `${String(Math.floor(n/60)).padStart(2,'0')}:${String(n%60).padStart(2,'0')}`;}
+function changeLevel(next){speech.stop();running=false;level=next;course=plans[level].lessons;key=plans[level].key;try{localStorage.setItem('daily-cantonese-level',level);}catch{storage=false;}state=loadState();view='learn';reviewId=null;tab='words';recall=false;listening=false;render();}
+function speechButtons(i,sentence){return `<span class="audio-actions" hidden><button class="speak" data-speak="${i}" data-sentence="${sentence}" data-rate="0.9" aria-label="粤语朗读第 ${i+1} 项">◖)) 朗读</button><button class="speak" data-speak="${i}" data-sentence="${sentence}" data-rate="0.65" aria-label="粤语慢速朗读第 ${i+1} 项">慢速</button></span>`;}
+function speechPanel(){return `<section class="panel speech-panel"><h3>听一句，跟着讲 <span class="pill">粤语发音</span></h3><div id="speech-info"></div><button class="soft" id="stop-speech" hidden>停止朗读</button><details><summary>如何启用粤语语音？</summary><p class="tiny">Mac：系统设置 → 辅助功能 → 朗读内容（部分版本称“朗读与语音”）→ 系统声音 → 管理声音，下载“中文（香港）／粤语”语音，再重新打开浏览器。iPhone：设置 → 辅助功能 → 朗读内容／朗读与语音 → 声音，查找并下载粤语或中文（香港）语音。</p><p class="tiny">推荐 Safari。浏览器不一定开放所有系统声音，以本页检测为准。首次下载需要联网；非本地语音可能需联网并由系统服务处理文字。无需 API 密钥。</p></details></section>`;}
+function updateSpeech(){
+ const voice=speech.voice;
+ document.querySelectorAll('.audio-actions').forEach(el=>el.hidden=!voice);
+ const info=document.querySelector('#speech-info');
+ if(info){const p=document.createElement('p');p.className='tiny';p.textContent=voice?`已检测到粤语语音：${voice.name}。点击“朗读”或“慢速”跟读。${voice.localService?'使用本地语音。':'此语音可能需要联网。'}`:speech.available?'当前浏览器尚未提供粤语语音，暂不显示播放按钮。听辨日可先读后遮住文字复述；也可按下方说明安装语音。':'此浏览器不支持语音朗读。听辨日可改为阅读后复述，或在 Safari 中安装粤语语音再练。';info.replaceChildren(p);}
+ const stop=document.querySelector('#stop-speech');if(stop)stop.hidden=!speech.speaking;
+ const listen=document.querySelector('#listening-toggle');if(listen){listen.disabled=!voice;listen.title=voice?'':'先安装可用的粤语语音才能进行听辨';}
+ if(!voice&&listening){listening=false;document.querySelector('#cards')?.classList.remove('listening');if(listen)listen.textContent='隐藏全部文字，听辨练习';}
+}
+function card(item,i,id,sentence=false){const code=(sentence?'s':'w')+i,known=marks(id).includes(code),preview=reviewId!==null&&!state.completed.includes(id);return `<article class="word ${sentence?'sentence ':''}${known?'known':''}"><span class="number">${sentence?'DIALOGUE':'WORD'} ${String(i+1).padStart(2,'0')}</span><button class="mark" data-mark="${code}" aria-label="${known?'取消掌握':'标记掌握'}：${item[0]}" aria-pressed="${known}" ${preview?'disabled':''}>${known?'✓':'+'}</button><h3>${item[0]}</h3><div class="jyut" lang="yue-Latn">${item[1]}</div><p class="meaning">${item[2]}</p>${speechButtons(i,sentence)}</article>`;}
+function week(){return Array.from({length:7},(_,i)=>{const d=new Date();d.setDate(d.getDate()-6+i);const done=state.checkins.some(x=>x.date===dateKey(d));return `<div class="day">${['日','一','二','三','四','五','六'][d.getDay()]}<i class="${done?'done':''}">${done?'✓':d.getDate()}</i></div>`;}).join('');}
+function challengePanel(l){if(level==='basic')return '';const preview=reviewId!==null&&!state.completed.includes(lessonId());return `<section class="panel challenge"><p class="eyebrow">${l.format||'SPEAK IT YOURSELF · 开口挑战'}</p><h3>${l.kind==='assessment'?'这一次，独立讲出来。':'把学过的，变成自己的话。'}</h3><p>${l.challenge}</p><p class="tiny">自主练习，不录音、不自动评分。每项词句重新练习后再标记掌握；复习日也从未掌握状态开始。</p><div class="practice-tools"><button class="soft" id="recall-toggle">${recall?'显示粤语与粤拼':'遮住粤语与粤拼，自测一下'}</button><button class="soft" id="listening-toggle" disabled>${listening?'揭晓全部文字':'隐藏全部文字，听辨练习'}</button></div>${l.kind==='assessment'?'<ul class="tiny"><li>能不看笔记说明自己的需求或观点。</li><li>能追问或请对方换个说法。</li><li>能更改一个条件，再回答一次。</li></ul>':''}<div class="divider"></div><label><input id="challenge-done" type="checkbox" ${challengeDone()?'checked':''} ${preview?'disabled':''}> 我已完成今天的${l.kind==='assessment'?'自测':'开口练习'}（自评）</label></section>`;}
+function side(){const id=lessonId(),l=course[id],done=state.checkins.some(x=>x.date===today),graduated=state.completed.length===course.length;return `<aside class="side">${speechPanel()}<section class="panel"><h3>每一天，都算数 ✦</h3><div class="stat-row"><strong>${streak(state.checkins.map(x=>x.date))}<small>天连续打卡</small></strong><span class="pill">${state.checkins.length} 天积累</span></div><div class="week">${week()}</div><div class="divider"></div><p class="tiny">${state.completed.length} / ${course.length} 天课程已完成 · 中断后继续，不跳课。</p><div class="progressbar"><span style="width:${state.completed.length/course.length*100}%"></span></div></section><section class="panel checkin"><h3>给自己 20 分钟 ◷</h3><div class="timer"><strong id="timer">${timeText()}</strong><button class="soft" id="timer-toggle">${running?'暂停':seconds()?'继续学习':'开始计时'}</button></div><div class="progressbar"><span id="timer-bar" style="width:${Math.min(seconds()/12,100)}%"></span></div><p class="tiny">打开本页并开启计时才累计。完成练习即可打卡，不强制等计时结束。</p><button id="checkin" class="primary full" ${done||graduated||reviewId!==null||!readyToCheckin()?'disabled':''}>${reviewId!==null?'复习／预览 · 不重复打卡':graduated?'✓ 全部课程已完成':done?'✓ 今日已打卡':readyToCheckin()?'完成学习 · 今日打卡':level==='basic'?'掌握全部词句后打卡':'完成词句与开口练习后打卡'}</button><p class="tiny" style="text-align:center">已掌握 ${marks(id).length} / 15 项${level!=='basic'?` · 开口练习${challengeDone()?'已完成':'待完成'}`:''}</p></section><section class="panel"><h3>今日的小计划</h3><div class="plan"><b>01</b><span>${l.kind&&l.kind!=='new'?'回想 10 个词块':'掌握 10 个词块'}</span><small>6 分钟</small></div><div class="plan"><b>02</b><span>${l.kind==='listen'?'听辨与跟读 5 句':'练习 5 句生活表达'}</span><small>8 分钟</small></div><div class="plan"><b>03</b><span>自测与情景表达</span><small>6 分钟</small></div></section><section class="panel tip"><h3>✧ 今日小提示</h3><p>${l.tip||'粤拼末尾的 1–6 表示声调。先熟悉拼写，再尝试慢慢读；不必急着一次记住。'}</p><div class="divider"></div><p>系统合成语音仅供练习参考，多音字与语气可能不够准确。能使用时，优先结合真人交流。</p></section></aside>`;}
+function renderSelector(){document.querySelector('#level-switch')?.remove();const selector=document.createElement('section');selector.id='level-switch';selector.className='level-switch';selector.innerHTML=`<div><strong>为自己，留一段学粤语的时间。</strong><p>${level==='ninety'?'90 天 · 15 个主题 · 新课、复习与实战交替进行':`${plans[level].name} · 原有 7 天课程，记录独立保存`}</p></div><div class="level-buttons">${Object.entries(plans).map(([id,p])=>`<button class="${level===id?'active':''}" data-level="${id}" aria-pressed="${level===id}">${p.name}</button>`).join('')}</div>`;app.before(selector);}
+function lessonButton(id){const l=course[id],done=state.completed.includes(id),current=currentLesson(state,today,course.length)===id&&!done;return `<button class="course-day ${done?'done':current?'current':''}" data-open="${id}"><span>DAY ${String(id+1).padStart(2,'0')} ${done?'✓':current?'· 当前':''}</span><strong>${l.format||l.topic}</strong><small>${done?'可复习':current?'继续学习':'可预览 · 按顺序解锁打卡'}</small></button>`;}
+function renderCatalog(){app.innerHTML=`<section class="panel catalog-intro"><p class="eyebrow">YOUR LEARNING JOURNEY</p><h2>${level==='ninety'?'90 天，从生活用语到自主表达。':'回到适合你的起点。'}</h2><p class="tiny">${level==='ninety'?'15 个主题，每个主题 6 天：2 天新课、1 天回想、1 天听辨、1 天情景对话、1 天小测。共 30 天新课 + 60 天有明确任务的复习与应用，不是 90 天都学新词。':'基础与进阶课程各 7 天，可保留原有学习习惯。'}</p><p class="tiny">一天完成一课，打卡后第二天继续。中断不丢进度，连续天数会重新计算。未来课程可预览，完成的课程可随时复习。</p><div class="journey-metrics"><b>${state.completed.length}<small>已完成</small></b><b>${course.length-state.completed.length}<small>待学习</small></b><b>20<small>分钟 / 天</small></b></div></section>${level==='ninety'?courseModules.map((m,i)=>`<section class="module-group"><div class="section-head"><h2><span class="module-number">${String(i+1).padStart(2,'0')}</span> ${m.topic}</h2><small>第 ${i*6+1}–${i*6+6} 天 · ${ninetyLessons[i*6].stage}</small></div><p class="tiny">${m.goal}</p><div class="course-grid">${Array.from({length:6},(_,n)=>lessonButton(i*6+n)).join('')}</div></section>`).join(''):`<div class="course-grid">${course.map((_,i)=>lessonButton(i)).join('')}</div>`}`;}
+function backupPanel(){return `<section class="panel backup-panel"><h3>给坚持，留一份备份。</h3><p class="tiny">包含 90 天、基础版与进阶版的所有本地记录。不含录音。更换文件、浏览器或设备前，先导出 JSON 备份；在新设备上导入即可继续。</p><div class="practice-tools"><button class="primary" id="export-progress">导出全部进度</button><label class="soft file-label">导入备份<input type="file" id="import-progress" accept=".json,application/json"></label></div><div id="import-preview" class="tiny" role="status"></div></section>`;}
+function renderProgress(){app.innerHTML=`<section class="panel"><p class="eyebrow">YOUR LITTLE MILESTONES · ${plans[level].name}</p><h2>每一步，都留下足迹。</h2><div class="summary"><div><strong>${state.checkins.length}</strong><span>累计打卡天数</span></div><div><strong>${streak(state.checkins.map(x=>x.date))}</strong><span>连续打卡天数</span></div><div><strong>${state.completed.length} / ${course.length}</strong><span>完成课程</span></div></div><p class="tiny">进度只在当前浏览器保存，不自动跨设备同步；清除网站数据会删除记录。不同模式分别统计。</p>${state.checkins.length?state.checkins.slice().reverse().map(x=>`<div class="plan"><b>✓</b><span>${x.date} · 第 ${x.lesson+1} 天 · ${course[x.lesson].topic}</span><small>已完成</small></div>`).join(''):'<p class="tiny">还没有打卡记录。今天就是一个好开始。</p>'}</section>${backupPanel()}`;}
+function renderReview(){app.innerHTML=`<section class="panel"><p class="eyebrow">LOOK BACK, MOVE FORWARD</p><h2>再见一面，记得更牢。</h2><p class="tiny">这里显示当前模式已完成的课程。复习不会重复打卡；90 天课程内也安排了专门复习日。</p>${state.completed.length?`<div class="lesson-list">${state.completed.map(id=>`<button class="panel" data-review="${id}"><span class="eyebrow">DAY ${String(id+1).padStart(2,'0')} · ${course[id].format||'已完成'}</span><h3>${course[id].topic}</h3><span class="tiny">10 个词 · 5 句对话 →</span></button>`).join('')}</div>`:'<div class="empty"><h2>先认识，再重逢。</h2><p>完成第一天后，就能在这里复习。</p><button class="primary" data-view="learn">开始今日学习 →</button></div>'}</section>`;}
+function render(){
+ renderSelector();queueMicrotask(updateSpeech);
+ document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('active',b.dataset.view===view));
+ document.querySelector('#date').textContent=new Date().toLocaleDateString('zh-CN',{month:'long',day:'numeric',weekday:'long'});
+ if(view==='catalog'){renderCatalog();return;}if(view==='progress'){renderProgress();return;}if(view==='review'&&reviewId===null){renderReview();return;}
+ const id=lessonId(),l=course[id],review=reviewId!==null,done=state.completed.length===course.length;
+ app.innerHTML=`${!storage?'<div class="review-banner">本地记录读取或保存不可用。请检查浏览器存储权限，并在「我的足迹」导出备份。</div>':''}${done&&!review?`<div class="review-banner">✦ 你已完成 ${course.length} 天课程！可继续在「温故知新」复习。是否能熟练交流，还要通过真实对话来检验。</div>`:''}${review?'<div class="review-banner"><button class="soft" id="back-review">← 返回列表</button> <span>复习／预览 · 不重复计入打卡</span></div>':''}<div class="layout"><div><section class="hero"><div><p class="eyebrow">${review?'REVISIT':'TODAY’S LESSON'} / DAY ${String(id+1).padStart(2,'0')} OF ${course.length}</p><h2>${l.title}</h2><p>${l.stage?l.stage+' · ':''}${l.format||l.topic}</p><div class="chips"><span>◷ 20 分钟</span><span>10 个词块</span><span>5 句生活表达</span></div></div><div class="hero-art">粵<small>慢 慢 嚟</small></div></section>${level==='ninety'?`<div class="lesson-context"><span>${l.kind==='new'?'认识新表达':'复习与应用日'}</span><p>${l.kind==='new'?'今天学习本主题的一组词句，并尝试联系自己的生活。':'今天会重现本主题学过的词句，通过不同练习把它们变成能用的表达。'}</p><button class="text-button" data-view="catalog">查看 90 天路线 →</button></div>`:''}<div class="section-head"><h2>今日学习清单 <span class="tiny">/ 小步，也算进步</span></h2><small>${marks(id).length} / 15 已掌握</small></div><div class="tabs"><button data-tab="words" class="${tab==='words'?'active':''}">常用词块 · 10</button><button data-tab="sentences" class="${tab==='sentences'?'active':''}">生活对话 · 5</button>${review?'<button id="hide-meaning">隐藏释义</button>':''}</div><div class="${tab==='words'?'words':'sentences'} ${recall?'recall':''} ${listening?'listening':''}" id="cards">${(tab==='words'?l.words:l.sentences).map((item,i)=>card(item,i,id,tab!=='words')).join('')}</div>${challengePanel(l)}<div class="panel finish"><p>${tab==='words'?'每个词练习后，点 + 标记掌握；再到对话中试着使用。':'练完 5 句后，完成开口任务。复习可重复进行，打卡每天一次。'}</p><button class="soft" data-tab="${tab==='words'?'sentences':'words'}">${tab==='words'?'接下来：生活对话 →':'← 再看看词块'}</button></div></div>${side()}</div>`;
+}
+function collectBackup(){const records={};for(const [k,total] of Object.entries(progressKeys)){const raw=localStorage.getItem(k);if(raw)records[k]=validateProgress(JSON.parse(raw),total);}records[key]=state;return {app:'daily-cantonese',version:1,exportedAt:new Date().toISOString(),records};}
+function exportProgress(){try{const blob=new Blob([JSON.stringify(collectBackup(),null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=`日日粤-学习进度-${dateKey()}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);toast('已生成备份，请将 JSON 文件保存在安全的位置。');}catch{toast('备份失败：有记录无法读取。请保留当前文件，勿清除网站数据。');}}
+document.addEventListener('change',async e=>{
+ if(e.target.id==='challenge-done'){if(reviewId!==null&&!state.completed.includes(lessonId()))return;state.challenges??={};state.challenges[lessonId()]=e.target.checked;save();render();}
+ if(e.target.id==='import-progress'){
+  pendingImport=null;const file=e.target.files[0],preview=document.querySelector('#import-preview');if(!file)return;
+  try{if(file.size>2000000)throw new Error('备份文件过大，请选择本 App 导出的 JSON。');pendingImport=parseBackup(await file.text());preview.replaceChildren();const p=document.createElement('p');p.textContent=`检测到 ${Object.entries(pendingImport).map(([k,v])=>`${Object.values(plans).find(p=>p.key===k).name} ${v.completed.length} 天`).join('、')}。确认导入将替换备份所含课程的当前记录，其余课程保留。建议先导出当前进度。`;preview.append(p);const b=document.createElement('button');b.id='confirm-import';b.className='primary';b.textContent='确认替换并导入';preview.append(b);}catch(error){preview.textContent=error.message;pendingImport=null;}
+ }
+});
+document.addEventListener('click',e=>{
+ const b=e.target.closest('button');if(!b)return;
+ if(b.dataset.level){changeLevel(b.dataset.level);return;}
+ if(b.id==='export-progress'){exportProgress();return;}
+ if(b.id==='confirm-import'&&pendingImport){try{const before={};for(const k of Object.keys(pendingImport))before[k]=localStorage.getItem(k);localStorage.setItem('daily-cantonese-before-import',JSON.stringify(before));try{for(const [k,v] of Object.entries(pendingImport))localStorage.setItem(k,JSON.stringify(v));}catch(error){for(const [k,v] of Object.entries(before)){if(v===null)localStorage.removeItem(k);else localStorage.setItem(k,v);}throw error;}state=loadState();pendingImport=null;running=false;speech.stop();render();toast('导入完成。可以切换模式查看对应进度。');}catch{toast('导入失败，可能是存储空间不足。请勿清除原记录。');}return;}
+ if(b.id==='recall-toggle'){recall=!recall;listening=false;render();return;}
+ if(b.id==='listening-toggle'&&speech.voice){listening=!listening;recall=false;render();return;}
+ if(b.dataset.speak!==undefined){const items=b.dataset.sentence==='true'?course[lessonId()].sentences:course[lessonId()].words;speech.play(items[Number(b.dataset.speak)][0],Number(b.dataset.rate));return;}
+ if(b.id==='stop-speech'){speech.stop();return;}
+ if(b.dataset.view||b.dataset.tab||b.dataset.review!==undefined||b.dataset.open!==undefined||b.id==='back-review')speech.stop();
+ if(b.dataset.view){view=b.dataset.view;reviewId=null;recall=false;listening=false;pendingImport=null;render();}
+ else if(b.dataset.open!==undefined){const id=Number(b.dataset.open);reviewId=id===currentLesson(state,today,course.length)&&!state.completed.includes(id)?null:id;view='learn';tab='words';recall=false;listening=false;render();window.scrollTo({top:0,behavior:'smooth'});}
+ else if(b.dataset.tab){tab=b.dataset.tab;render();}
+ else if(b.dataset.mark){const id=lessonId();if(reviewId!==null&&!state.completed.includes(id))return;const m=marks(id),v=b.dataset.mark;state.marks[id]=m.includes(v)?m.filter(x=>x!==v):[...m,v];save();render();}
+ else if(b.dataset.review!==undefined){reviewId=Number(b.dataset.review);tab='words';recall=false;listening=false;render();}
+ else if(b.id==='back-review'){reviewId=null;view=view==='review'?'review':'catalog';recall=false;listening=false;render();}
+ else if(b.id==='hide-meaning'){const hidden=b.textContent==='隐藏释义';document.querySelectorAll('#cards .meaning').forEach(x=>x.style.visibility=hidden?'hidden':'');b.textContent=hidden?'显示释义':'隐藏释义';}
+ else if(b.id==='timer-toggle'){running=!running;lastTick=Date.now();render();}
+ else if(b.id==='checkin'){const id=lessonId();if(reviewId!==null||!readyToCheckin()||state.completed.length===course.length||state.checkins.some(x=>x.date===today))return;state.checkins.push({date:today,lesson:id});if(!state.completed.includes(id))state.completed.push(id);running=false;save();render();toast(state.completed.length===course.length?'全部课程完成！继续在生活里练习粤语吧。':'今日打卡成功！下一天继续，慢慢嚟。');}
+});
+setInterval(()=>{
+ if(dateKey()!==today){today=dateKey();running=false;render();}
+ if(!running)return;const now=Date.now(),elapsed=Math.floor((now-lastTick)/1000);if(elapsed<1)return;lastTick+=elapsed*1000;state.sessions[today]=Math.min(1200,seconds()+elapsed);save();
+ if(seconds()>=1200){running=false;toast('20 分钟完成！温习完记得打卡。');render();return;}
+ const el=document.querySelector('#timer');if(el)el.textContent=timeText();const bar=document.querySelector('#timer-bar');if(bar)bar.style.width=Math.min(seconds()/12,100)+'%';
+},1000);
+render();
+
+</script></body></html>
