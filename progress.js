@@ -1,0 +1,3 @@
+export const dateKey=(date=new Date())=>`${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,'0')}-${String(date.getDate()).padStart(2,'0')}`;
+export function streak(dates,now=new Date()){const set=new Set(dates);const day=new Date(now.getFullYear(),now.getMonth(),now.getDate(),12);if(!set.has(dateKey(day)))day.setDate(day.getDate()-1);let count=0;while(set.has(dateKey(day))){count++;day.setDate(day.getDate()-1);}return count;}
+export function currentLesson(state,today,total){const entry=state.checkins.find(x=>x.date===today);return entry?entry.lesson:Math.min(state.completed.length,total-1);}
